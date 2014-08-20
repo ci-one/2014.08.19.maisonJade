@@ -1,0 +1,824 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'C:\\webstormwork\\masion\\2014.08.19.maisonJade',
+6 verbose install   [ 'express',
+6 verbose install     'static-favicon',
+6 verbose install     'morgan',
+6 verbose install     'cookie-parser',
+6 verbose install     'body-parser',
+6 verbose install     'debug',
+6 verbose install     'jade',
+6 verbose install     'express-session' ] ]
+7 info preinstall generated-express-app@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping express@~4.2.0 C:\webstormwork\masion\2014.08.19.maisonJade
+10 verbose already installed skipping static-favicon@~1.0.0 C:\webstormwork\masion\2014.08.19.maisonJade
+11 verbose already installed skipping morgan@~1.0.0 C:\webstormwork\masion\2014.08.19.maisonJade
+12 verbose already installed skipping cookie-parser@~1.0.1 C:\webstormwork\masion\2014.08.19.maisonJade
+13 verbose already installed skipping body-parser@~1.0.0 C:\webstormwork\masion\2014.08.19.maisonJade
+14 verbose already installed skipping debug@~0.7.4 C:\webstormwork\masion\2014.08.19.maisonJade
+15 verbose already installed skipping jade@~1.3.0 C:\webstormwork\masion\2014.08.19.maisonJade
+16 verbose already installed skipping express-session@* C:\webstormwork\masion\2014.08.19.maisonJade
+17 silly resolved []
+18 info build C:\webstormwork\masion\2014.08.19.maisonJade
+19 verbose linkStuff [ false, false, false, 'C:\\webstormwork\\masion' ]
+20 info linkStuff generated-express-app@0.0.1
+21 verbose linkBins generated-express-app@0.0.1
+22 verbose linkMans generated-express-app@0.0.1
+23 verbose rebuildBundles generated-express-app@0.0.1
+24 verbose rebuildBundles [ '.bin',
+24 verbose rebuildBundles   'body-parser',
+24 verbose rebuildBundles   'compression',
+24 verbose rebuildBundles   'connect-livereload',
+24 verbose rebuildBundles   'connect-multiparty',
+24 verbose rebuildBundles   'cookie-parser',
+24 verbose rebuildBundles   'debug',
+24 verbose rebuildBundles   'ejs',
+24 verbose rebuildBundles   'errorhandler',
+24 verbose rebuildBundles   'express',
+24 verbose rebuildBundles   'express-session',
+24 verbose rebuildBundles   'grunt',
+24 verbose rebuildBundles   'grunt-autoprefixer',
+24 verbose rebuildBundles   'grunt-bower-install',
+24 verbose rebuildBundles   'grunt-concurrent',
+24 verbose rebuildBundles   'grunt-contrib-clean',
+24 verbose rebuildBundles   'grunt-contrib-coffee',
+24 verbose rebuildBundles   'grunt-contrib-compass',
+24 verbose rebuildBundles   'grunt-contrib-concat',
+24 verbose rebuildBundles   'grunt-contrib-copy',
+24 verbose rebuildBundles   'grunt-contrib-cssmin',
+24 verbose rebuildBundles   'grunt-contrib-htmlmin',
+24 verbose rebuildBundles   'grunt-contrib-imagemin',
+24 verbose rebuildBundles   'grunt-contrib-jshint',
+24 verbose rebuildBundles   'grunt-contrib-uglify',
+24 verbose rebuildBundles   'grunt-contrib-watch',
+24 verbose rebuildBundles   'grunt-env',
+24 verbose rebuildBundles   'grunt-express-server',
+24 verbose rebuildBundles   'grunt-google-cdn',
+24 verbose rebuildBundles   'grunt-karma',
+24 verbose rebuildBundles   'grunt-mocha-test',
+24 verbose rebuildBundles   'grunt-newer',
+24 verbose rebuildBundles   'grunt-ngmin',
+24 verbose rebuildBundles   'grunt-node-inspector',
+24 verbose rebuildBundles   'grunt-nodemon',
+24 verbose rebuildBundles   'grunt-open',
+24 verbose rebuildBundles   'grunt-rev',
+24 verbose rebuildBundles   'grunt-svgmin',
+24 verbose rebuildBundles   'grunt-usemin',
+24 verbose rebuildBundles   'jade',
+24 verbose rebuildBundles   'jshint-stylish',
+24 verbose rebuildBundles   'karma',
+24 verbose rebuildBundles   'karma-chrome-launcher',
+24 verbose rebuildBundles   'karma-coffee-preprocessor',
+24 verbose rebuildBundles   'karma-firefox-launcher',
+24 verbose rebuildBundles   'karma-html2js-preprocessor',
+24 verbose rebuildBundles   'karma-jasmine',
+24 verbose rebuildBundles   'karma-ng-html2js-preprocessor',
+24 verbose rebuildBundles   'karma-ng-scenario',
+24 verbose rebuildBundles   'karma-phantomjs-launcher',
+24 verbose rebuildBundles   'karma-requirejs',
+24 verbose rebuildBundles   'karma-script-launcher',
+24 verbose rebuildBundles   'load-grunt-tasks',
+24 verbose rebuildBundles   'lodash',
+24 verbose rebuildBundles   'mariasql',
+24 verbose rebuildBundles   'method-override',
+24 verbose rebuildBundles   'morgan',
+24 verbose rebuildBundles   'open',
+24 verbose rebuildBundles   'requirejs',
+24 verbose rebuildBundles   'should',
+24 verbose rebuildBundles   'static-favicon',
+24 verbose rebuildBundles   'supertest',
+24 verbose rebuildBundles   'time-grunt' ]
+25 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\compression
+26 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\compression
+27 info preinstall compression@1.0.11
+28 verbose linkStuff [ false,
+28 verbose linkStuff   false,
+28 verbose linkStuff   false,
+28 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+29 info linkStuff compression@1.0.11
+30 verbose linkBins compression@1.0.11
+31 verbose linkMans compression@1.0.11
+32 verbose rebuildBundles compression@1.0.11
+33 verbose rebuildBundles [ 'accepts',
+33 verbose rebuildBundles   'bytes',
+33 verbose rebuildBundles   'compressible',
+33 verbose rebuildBundles   'debug',
+33 verbose rebuildBundles   'on-headers',
+33 verbose rebuildBundles   'vary' ]
+34 info install compression@1.0.11
+35 info postinstall compression@1.0.11
+36 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\connect-livereload
+37 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\connect-livereload
+38 info preinstall connect-livereload@0.3.2
+39 verbose linkStuff [ false,
+39 verbose linkStuff   false,
+39 verbose linkStuff   false,
+39 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+40 info linkStuff connect-livereload@0.3.2
+41 verbose linkBins connect-livereload@0.3.2
+42 verbose linkMans connect-livereload@0.3.2
+43 verbose rebuildBundles connect-livereload@0.3.2
+44 info install connect-livereload@0.3.2
+45 info postinstall connect-livereload@0.3.2
+46 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\connect-multiparty
+47 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\connect-multiparty
+48 info preinstall connect-multiparty@1.2.1
+49 verbose linkStuff [ false,
+49 verbose linkStuff   false,
+49 verbose linkStuff   false,
+49 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+50 info linkStuff connect-multiparty@1.2.1
+51 verbose linkBins connect-multiparty@1.2.1
+52 verbose linkMans connect-multiparty@1.2.1
+53 verbose rebuildBundles connect-multiparty@1.2.1
+54 verbose rebuildBundles [ 'multiparty', 'qs', 'type-is' ]
+55 info install connect-multiparty@1.2.1
+56 info postinstall connect-multiparty@1.2.1
+57 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\ejs
+58 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\ejs
+59 info preinstall ejs@0.8.8
+60 verbose linkStuff [ false,
+60 verbose linkStuff   false,
+60 verbose linkStuff   false,
+60 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+61 info linkStuff ejs@0.8.8
+62 verbose linkBins ejs@0.8.8
+63 verbose linkMans ejs@0.8.8
+64 verbose rebuildBundles ejs@0.8.8
+65 info install ejs@0.8.8
+66 info postinstall ejs@0.8.8
+67 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\errorhandler
+68 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\errorhandler
+69 info preinstall errorhandler@1.0.2
+70 verbose linkStuff [ false,
+70 verbose linkStuff   false,
+70 verbose linkStuff   false,
+70 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+71 info linkStuff errorhandler@1.0.2
+72 verbose linkBins errorhandler@1.0.2
+73 verbose linkMans errorhandler@1.0.2
+74 verbose rebuildBundles errorhandler@1.0.2
+75 info install errorhandler@1.0.2
+76 info postinstall errorhandler@1.0.2
+77 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt
+78 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt
+79 info preinstall grunt@0.4.5
+80 verbose linkStuff [ false,
+80 verbose linkStuff   false,
+80 verbose linkStuff   false,
+80 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+81 info linkStuff grunt@0.4.5
+82 verbose linkBins grunt@0.4.5
+83 verbose linkMans grunt@0.4.5
+84 verbose rebuildBundles grunt@0.4.5
+85 verbose rebuildBundles [ '.bin',
+85 verbose rebuildBundles   'async',
+85 verbose rebuildBundles   'coffee-script',
+85 verbose rebuildBundles   'colors',
+85 verbose rebuildBundles   'dateformat',
+85 verbose rebuildBundles   'eventemitter2',
+85 verbose rebuildBundles   'exit',
+85 verbose rebuildBundles   'findup-sync',
+85 verbose rebuildBundles   'getobject',
+85 verbose rebuildBundles   'glob',
+85 verbose rebuildBundles   'grunt-legacy-log',
+85 verbose rebuildBundles   'grunt-legacy-util',
+85 verbose rebuildBundles   'hooker',
+85 verbose rebuildBundles   'iconv-lite',
+85 verbose rebuildBundles   'js-yaml',
+85 verbose rebuildBundles   'lodash',
+85 verbose rebuildBundles   'minimatch',
+85 verbose rebuildBundles   'nopt',
+85 verbose rebuildBundles   'rimraf',
+85 verbose rebuildBundles   'underscore.string',
+85 verbose rebuildBundles   'which' ]
+86 info install grunt@0.4.5
+87 info postinstall grunt@0.4.5
+88 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-autoprefixer
+89 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-autoprefixer
+90 info preinstall grunt-autoprefixer@0.4.2
+91 verbose linkStuff [ false,
+91 verbose linkStuff   false,
+91 verbose linkStuff   false,
+91 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+92 info linkStuff grunt-autoprefixer@0.4.2
+93 verbose linkBins grunt-autoprefixer@0.4.2
+94 verbose link bins [ { autoprefixer: './node_modules/autoprefixer/bin/autoprefixer' },
+94 verbose link bins   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules\\.bin',
+94 verbose link bins   false ]
+95 verbose linkMans grunt-autoprefixer@0.4.2
+96 verbose rebuildBundles grunt-autoprefixer@0.4.2
+97 verbose rebuildBundles [ '.bin', 'autoprefixer' ]
+98 info install grunt-autoprefixer@0.4.2
+99 info postinstall grunt-autoprefixer@0.4.2
+100 verbose unsafe-perm in lifecycle true
+101 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-bower-install
+102 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-bower-install
+103 info preinstall grunt-bower-install@0.7.0
+104 verbose linkStuff [ false,
+104 verbose linkStuff   false,
+104 verbose linkStuff   false,
+104 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+105 info linkStuff grunt-bower-install@0.7.0
+106 verbose linkBins grunt-bower-install@0.7.0
+107 verbose linkMans grunt-bower-install@0.7.0
+108 verbose rebuildBundles grunt-bower-install@0.7.0
+109 verbose rebuildBundles [ 'wiredep' ]
+110 info install grunt-bower-install@0.7.0
+111 info postinstall grunt-bower-install@0.7.0
+112 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-concurrent
+113 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-concurrent
+114 info preinstall grunt-concurrent@0.4.3
+115 verbose linkStuff [ false,
+115 verbose linkStuff   false,
+115 verbose linkStuff   false,
+115 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+116 info linkStuff grunt-concurrent@0.4.3
+117 verbose linkBins grunt-concurrent@0.4.3
+118 verbose linkMans grunt-concurrent@0.4.3
+119 verbose rebuildBundles grunt-concurrent@0.4.3
+120 verbose rebuildBundles [ 'async', 'lpad' ]
+121 info install grunt-concurrent@0.4.3
+122 info postinstall grunt-concurrent@0.4.3
+123 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-clean
+124 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-clean
+125 info preinstall grunt-contrib-clean@0.5.0
+126 verbose linkStuff [ false,
+126 verbose linkStuff   false,
+126 verbose linkStuff   false,
+126 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+127 info linkStuff grunt-contrib-clean@0.5.0
+128 verbose linkBins grunt-contrib-clean@0.5.0
+129 verbose linkMans grunt-contrib-clean@0.5.0
+130 verbose rebuildBundles grunt-contrib-clean@0.5.0
+131 verbose rebuildBundles [ '.bin', 'rimraf' ]
+132 info install grunt-contrib-clean@0.5.0
+133 info postinstall grunt-contrib-clean@0.5.0
+134 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-coffee
+135 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-coffee
+136 info preinstall grunt-contrib-coffee@0.7.0
+137 verbose linkStuff [ false,
+137 verbose linkStuff   false,
+137 verbose linkStuff   false,
+137 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+138 info linkStuff grunt-contrib-coffee@0.7.0
+139 verbose linkBins grunt-contrib-coffee@0.7.0
+140 verbose linkMans grunt-contrib-coffee@0.7.0
+141 verbose rebuildBundles grunt-contrib-coffee@0.7.0
+142 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+143 info install grunt-contrib-coffee@0.7.0
+144 info postinstall grunt-contrib-coffee@0.7.0
+145 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-compass
+146 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-compass
+147 info preinstall grunt-contrib-compass@0.6.0
+148 verbose linkStuff [ false,
+148 verbose linkStuff   false,
+148 verbose linkStuff   false,
+148 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+149 info linkStuff grunt-contrib-compass@0.6.0
+150 verbose linkBins grunt-contrib-compass@0.6.0
+151 verbose linkMans grunt-contrib-compass@0.6.0
+152 verbose rebuildBundles grunt-contrib-compass@0.6.0
+153 verbose rebuildBundles [ 'async', 'dargs', 'tmp' ]
+154 info install grunt-contrib-compass@0.6.0
+155 info postinstall grunt-contrib-compass@0.6.0
+156 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-concat
+157 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-concat
+158 info preinstall grunt-contrib-concat@0.3.0
+159 verbose linkStuff [ false,
+159 verbose linkStuff   false,
+159 verbose linkStuff   false,
+159 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+160 info linkStuff grunt-contrib-concat@0.3.0
+161 verbose linkBins grunt-contrib-concat@0.3.0
+162 verbose linkMans grunt-contrib-concat@0.3.0
+163 verbose rebuildBundles grunt-contrib-concat@0.3.0
+164 info install grunt-contrib-concat@0.3.0
+165 info postinstall grunt-contrib-concat@0.3.0
+166 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-copy
+167 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-copy
+168 info preinstall grunt-contrib-copy@0.4.1
+169 verbose linkStuff [ false,
+169 verbose linkStuff   false,
+169 verbose linkStuff   false,
+169 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+170 info linkStuff grunt-contrib-copy@0.4.1
+171 verbose linkBins grunt-contrib-copy@0.4.1
+172 verbose linkMans grunt-contrib-copy@0.4.1
+173 verbose rebuildBundles grunt-contrib-copy@0.4.1
+174 info install grunt-contrib-copy@0.4.1
+175 info postinstall grunt-contrib-copy@0.4.1
+176 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-cssmin
+177 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-cssmin
+178 info preinstall grunt-contrib-cssmin@0.7.0
+179 verbose linkStuff [ false,
+179 verbose linkStuff   false,
+179 verbose linkStuff   false,
+179 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+180 info linkStuff grunt-contrib-cssmin@0.7.0
+181 verbose linkBins grunt-contrib-cssmin@0.7.0
+182 verbose linkMans grunt-contrib-cssmin@0.7.0
+183 verbose rebuildBundles grunt-contrib-cssmin@0.7.0
+184 verbose rebuildBundles [ '.bin', 'clean-css', 'grunt-lib-contrib' ]
+185 info install grunt-contrib-cssmin@0.7.0
+186 info postinstall grunt-contrib-cssmin@0.7.0
+187 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-htmlmin
+188 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-htmlmin
+189 info preinstall grunt-contrib-htmlmin@0.1.3
+190 verbose linkStuff [ false,
+190 verbose linkStuff   false,
+190 verbose linkStuff   false,
+190 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+191 info linkStuff grunt-contrib-htmlmin@0.1.3
+192 verbose linkBins grunt-contrib-htmlmin@0.1.3
+193 verbose linkMans grunt-contrib-htmlmin@0.1.3
+194 verbose rebuildBundles grunt-contrib-htmlmin@0.1.3
+195 verbose rebuildBundles [ 'grunt-lib-contrib', 'html-minifier' ]
+196 info install grunt-contrib-htmlmin@0.1.3
+197 info postinstall grunt-contrib-htmlmin@0.1.3
+198 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-imagemin
+199 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-imagemin
+200 info preinstall grunt-contrib-imagemin@0.5.0
+201 verbose linkStuff [ false,
+201 verbose linkStuff   false,
+201 verbose linkStuff   false,
+201 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+202 info linkStuff grunt-contrib-imagemin@0.5.0
+203 verbose linkBins grunt-contrib-imagemin@0.5.0
+204 verbose linkMans grunt-contrib-imagemin@0.5.0
+205 verbose rebuildBundles grunt-contrib-imagemin@0.5.0
+206 verbose rebuildBundles [ 'async', 'chalk', 'filesize', 'image-min' ]
+207 info install grunt-contrib-imagemin@0.5.0
+208 info postinstall grunt-contrib-imagemin@0.5.0
+209 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-jshint
+210 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-jshint
+211 info preinstall grunt-contrib-jshint@0.7.2
+212 verbose linkStuff [ false,
+212 verbose linkStuff   false,
+212 verbose linkStuff   false,
+212 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+213 info linkStuff grunt-contrib-jshint@0.7.2
+214 verbose linkBins grunt-contrib-jshint@0.7.2
+215 verbose linkMans grunt-contrib-jshint@0.7.2
+216 verbose rebuildBundles grunt-contrib-jshint@0.7.2
+217 verbose rebuildBundles [ '.bin', 'jshint' ]
+218 info install grunt-contrib-jshint@0.7.2
+219 info postinstall grunt-contrib-jshint@0.7.2
+220 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-uglify
+221 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-uglify
+222 info preinstall grunt-contrib-uglify@0.2.7
+223 verbose linkStuff [ false,
+223 verbose linkStuff   false,
+223 verbose linkStuff   false,
+223 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+224 info linkStuff grunt-contrib-uglify@0.2.7
+225 verbose linkBins grunt-contrib-uglify@0.2.7
+226 verbose linkMans grunt-contrib-uglify@0.2.7
+227 verbose rebuildBundles grunt-contrib-uglify@0.2.7
+228 verbose rebuildBundles [ '.bin', 'grunt-lib-contrib', 'uglify-js' ]
+229 info install grunt-contrib-uglify@0.2.7
+230 info postinstall grunt-contrib-uglify@0.2.7
+231 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-watch
+232 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-contrib-watch
+233 info preinstall grunt-contrib-watch@0.5.3
+234 verbose linkStuff [ false,
+234 verbose linkStuff   false,
+234 verbose linkStuff   false,
+234 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+235 info linkStuff grunt-contrib-watch@0.5.3
+236 verbose linkBins grunt-contrib-watch@0.5.3
+237 verbose linkMans grunt-contrib-watch@0.5.3
+238 verbose rebuildBundles grunt-contrib-watch@0.5.3
+239 verbose rebuildBundles [ '.bin', 'gaze', 'tiny-lr' ]
+240 info install grunt-contrib-watch@0.5.3
+241 info postinstall grunt-contrib-watch@0.5.3
+242 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-env
+243 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-env
+244 info preinstall grunt-env@0.4.1
+245 verbose linkStuff [ false,
+245 verbose linkStuff   false,
+245 verbose linkStuff   false,
+245 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+246 info linkStuff grunt-env@0.4.1
+247 verbose linkBins grunt-env@0.4.1
+248 verbose linkMans grunt-env@0.4.1
+249 verbose rebuildBundles grunt-env@0.4.1
+250 verbose rebuildBundles [ 'ini' ]
+251 info install grunt-env@0.4.1
+252 info postinstall grunt-env@0.4.1
+253 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-express-server
+254 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-express-server
+255 info preinstall grunt-express-server@0.4.17
+256 verbose linkStuff [ false,
+256 verbose linkStuff   false,
+256 verbose linkStuff   false,
+256 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+257 info linkStuff grunt-express-server@0.4.17
+258 verbose linkBins grunt-express-server@0.4.17
+259 verbose linkMans grunt-express-server@0.4.17
+260 verbose rebuildBundles grunt-express-server@0.4.17
+261 info install grunt-express-server@0.4.17
+262 info postinstall grunt-express-server@0.4.17
+263 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-google-cdn
+264 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-google-cdn
+265 info preinstall grunt-google-cdn@0.2.2
+266 verbose linkStuff [ false,
+266 verbose linkStuff   false,
+266 verbose linkStuff   false,
+266 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+267 info linkStuff grunt-google-cdn@0.2.2
+268 verbose linkBins grunt-google-cdn@0.2.2
+269 verbose linkMans grunt-google-cdn@0.2.2
+270 verbose rebuildBundles grunt-google-cdn@0.2.2
+271 verbose rebuildBundles [ '.bin', 'bower', 'google-cdn' ]
+272 info install grunt-google-cdn@0.2.2
+273 info postinstall grunt-google-cdn@0.2.2
+274 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-karma
+275 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-karma
+276 info preinstall grunt-karma@0.6.2
+277 verbose linkStuff [ false,
+277 verbose linkStuff   false,
+277 verbose linkStuff   false,
+277 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+278 info linkStuff grunt-karma@0.6.2
+279 verbose linkBins grunt-karma@0.6.2
+280 verbose linkMans grunt-karma@0.6.2
+281 verbose rebuildBundles grunt-karma@0.6.2
+282 verbose rebuildBundles [ 'optimist' ]
+283 info install grunt-karma@0.6.2
+284 info postinstall grunt-karma@0.6.2
+285 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-mocha-test
+286 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-mocha-test
+287 info preinstall grunt-mocha-test@0.8.2
+288 verbose linkStuff [ false,
+288 verbose linkStuff   false,
+288 verbose linkStuff   false,
+288 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+289 info linkStuff grunt-mocha-test@0.8.2
+290 verbose linkBins grunt-mocha-test@0.8.2
+291 verbose link bins [ { 'grunt-mocha-test': 'bin/grunt-mocha-test' },
+291 verbose link bins   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules\\.bin',
+291 verbose link bins   false ]
+292 verbose linkMans grunt-mocha-test@0.8.2
+293 verbose rebuildBundles grunt-mocha-test@0.8.2
+294 verbose rebuildBundles [ '.bin', 'mocha' ]
+295 info install grunt-mocha-test@0.8.2
+296 info postinstall grunt-mocha-test@0.8.2
+297 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-newer
+298 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-newer
+299 info preinstall grunt-newer@0.5.4
+300 verbose linkStuff [ false,
+300 verbose linkStuff   false,
+300 verbose linkStuff   false,
+300 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+301 info linkStuff grunt-newer@0.5.4
+302 verbose linkBins grunt-newer@0.5.4
+303 verbose linkMans grunt-newer@0.5.4
+304 verbose rebuildBundles grunt-newer@0.5.4
+305 info install grunt-newer@0.5.4
+306 info postinstall grunt-newer@0.5.4
+307 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-ngmin
+308 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-ngmin
+309 info preinstall grunt-ngmin@0.0.3
+310 verbose linkStuff [ false,
+310 verbose linkStuff   false,
+310 verbose linkStuff   false,
+310 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+311 info linkStuff grunt-ngmin@0.0.3
+312 verbose linkBins grunt-ngmin@0.0.3
+313 verbose linkMans grunt-ngmin@0.0.3
+314 verbose rebuildBundles grunt-ngmin@0.0.3
+315 verbose rebuildBundles [ '.bin', 'ngmin' ]
+316 info install grunt-ngmin@0.0.3
+317 info postinstall grunt-ngmin@0.0.3
+318 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-node-inspector
+319 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-node-inspector
+320 info preinstall grunt-node-inspector@0.1.5
+321 verbose linkStuff [ false,
+321 verbose linkStuff   false,
+321 verbose linkStuff   false,
+321 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+322 info linkStuff grunt-node-inspector@0.1.5
+323 verbose linkBins grunt-node-inspector@0.1.5
+324 verbose linkMans grunt-node-inspector@0.1.5
+325 verbose rebuildBundles grunt-node-inspector@0.1.5
+326 verbose rebuildBundles [ '.bin', 'node-inspector' ]
+327 info install grunt-node-inspector@0.1.5
+328 info postinstall grunt-node-inspector@0.1.5
+329 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-nodemon
+330 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-nodemon
+331 info preinstall grunt-nodemon@0.2.1
+332 verbose linkStuff [ false,
+332 verbose linkStuff   false,
+332 verbose linkStuff   false,
+332 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+333 info linkStuff grunt-nodemon@0.2.1
+334 verbose linkBins grunt-nodemon@0.2.1
+335 verbose linkMans grunt-nodemon@0.2.1
+336 verbose rebuildBundles grunt-nodemon@0.2.1
+337 verbose rebuildBundles [ '.bin', 'nodemon' ]
+338 info install grunt-nodemon@0.2.1
+339 info postinstall grunt-nodemon@0.2.1
+340 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-open
+341 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-open
+342 info preinstall grunt-open@0.2.3
+343 verbose linkStuff [ false,
+343 verbose linkStuff   false,
+343 verbose linkStuff   false,
+343 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+344 info linkStuff grunt-open@0.2.3
+345 verbose linkBins grunt-open@0.2.3
+346 verbose link bins [ { 'grunt-open': 'bin/grunt-open' },
+346 verbose link bins   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules\\.bin',
+346 verbose link bins   false ]
+347 verbose linkMans grunt-open@0.2.3
+348 verbose rebuildBundles grunt-open@0.2.3
+349 info install grunt-open@0.2.3
+350 info postinstall grunt-open@0.2.3
+351 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-rev
+352 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-rev
+353 info preinstall grunt-rev@0.1.0
+354 verbose linkStuff [ false,
+354 verbose linkStuff   false,
+354 verbose linkStuff   false,
+354 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+355 info linkStuff grunt-rev@0.1.0
+356 verbose linkBins grunt-rev@0.1.0
+357 verbose linkMans grunt-rev@0.1.0
+358 verbose rebuildBundles grunt-rev@0.1.0
+359 info install grunt-rev@0.1.0
+360 info postinstall grunt-rev@0.1.0
+361 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-svgmin
+362 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-svgmin
+363 info preinstall grunt-svgmin@0.2.1
+364 verbose linkStuff [ false,
+364 verbose linkStuff   false,
+364 verbose linkStuff   false,
+364 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+365 info linkStuff grunt-svgmin@0.2.1
+366 verbose linkBins grunt-svgmin@0.2.1
+367 verbose linkMans grunt-svgmin@0.2.1
+368 verbose rebuildBundles grunt-svgmin@0.2.1
+369 verbose rebuildBundles [ '.bin', 'chalk', 'filesize', 'svgo' ]
+370 info install grunt-svgmin@0.2.1
+371 info postinstall grunt-svgmin@0.2.1
+372 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-usemin
+373 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\grunt-usemin
+374 info preinstall grunt-usemin@2.0.2
+375 verbose linkStuff [ false,
+375 verbose linkStuff   false,
+375 verbose linkStuff   false,
+375 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+376 info linkStuff grunt-usemin@2.0.2
+377 verbose linkBins grunt-usemin@2.0.2
+378 verbose linkMans grunt-usemin@2.0.2
+379 verbose rebuildBundles grunt-usemin@2.0.2
+380 verbose rebuildBundles [ 'debug', 'lodash' ]
+381 info install grunt-usemin@2.0.2
+382 info postinstall grunt-usemin@2.0.2
+383 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\jshint-stylish
+384 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\jshint-stylish
+385 info preinstall jshint-stylish@0.1.5
+386 verbose linkStuff [ false,
+386 verbose linkStuff   false,
+386 verbose linkStuff   false,
+386 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+387 info linkStuff jshint-stylish@0.1.5
+388 verbose linkBins jshint-stylish@0.1.5
+389 verbose linkMans jshint-stylish@0.1.5
+390 verbose rebuildBundles jshint-stylish@0.1.5
+391 verbose rebuildBundles [ 'chalk', 'text-table' ]
+392 info install jshint-stylish@0.1.5
+393 info postinstall jshint-stylish@0.1.5
+394 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma
+395 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma
+396 info preinstall karma@0.10.10
+397 verbose linkStuff [ false,
+397 verbose linkStuff   false,
+397 verbose linkStuff   false,
+397 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+398 info linkStuff karma@0.10.10
+399 verbose linkBins karma@0.10.10
+400 verbose link bins [ { karma: './bin/karma' },
+400 verbose link bins   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules\\.bin',
+400 verbose link bins   false ]
+401 verbose linkMans karma@0.10.10
+402 verbose rebuildBundles karma@0.10.10
+403 verbose rebuildBundles [ '.bin',
+403 verbose rebuildBundles   'chokidar',
+403 verbose rebuildBundles   'coffee-script',
+403 verbose rebuildBundles   'colors',
+403 verbose rebuildBundles   'connect',
+403 verbose rebuildBundles   'di',
+403 verbose rebuildBundles   'glob',
+403 verbose rebuildBundles   'graceful-fs',
+403 verbose rebuildBundles   'http-proxy',
+403 verbose rebuildBundles   'lodash',
+403 verbose rebuildBundles   'log4js',
+403 verbose rebuildBundles   'mime',
+403 verbose rebuildBundles   'minimatch',
+403 verbose rebuildBundles   'optimist',
+403 verbose rebuildBundles   'q',
+403 verbose rebuildBundles   'rimraf',
+403 verbose rebuildBundles   'socket.io',
+403 verbose rebuildBundles   'useragent' ]
+404 info install karma@0.10.10
+405 info postinstall karma@0.10.10
+406 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-chrome-launcher
+407 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-chrome-launcher
+408 info preinstall karma-chrome-launcher@0.1.4
+409 verbose linkStuff [ false,
+409 verbose linkStuff   false,
+409 verbose linkStuff   false,
+409 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+410 info linkStuff karma-chrome-launcher@0.1.4
+411 verbose linkBins karma-chrome-launcher@0.1.4
+412 verbose linkMans karma-chrome-launcher@0.1.4
+413 verbose rebuildBundles karma-chrome-launcher@0.1.4
+414 info install karma-chrome-launcher@0.1.4
+415 info postinstall karma-chrome-launcher@0.1.4
+416 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-coffee-preprocessor
+417 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-coffee-preprocessor
+418 info preinstall karma-coffee-preprocessor@0.1.3
+419 verbose linkStuff [ false,
+419 verbose linkStuff   false,
+419 verbose linkStuff   false,
+419 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+420 info linkStuff karma-coffee-preprocessor@0.1.3
+421 verbose linkBins karma-coffee-preprocessor@0.1.3
+422 verbose linkMans karma-coffee-preprocessor@0.1.3
+423 verbose rebuildBundles karma-coffee-preprocessor@0.1.3
+424 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+425 info install karma-coffee-preprocessor@0.1.3
+426 info postinstall karma-coffee-preprocessor@0.1.3
+427 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-firefox-launcher
+428 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-firefox-launcher
+429 info preinstall karma-firefox-launcher@0.1.3
+430 verbose linkStuff [ false,
+430 verbose linkStuff   false,
+430 verbose linkStuff   false,
+430 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+431 info linkStuff karma-firefox-launcher@0.1.3
+432 verbose linkBins karma-firefox-launcher@0.1.3
+433 verbose linkMans karma-firefox-launcher@0.1.3
+434 verbose rebuildBundles karma-firefox-launcher@0.1.3
+435 info install karma-firefox-launcher@0.1.3
+436 info postinstall karma-firefox-launcher@0.1.3
+437 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-html2js-preprocessor
+438 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-html2js-preprocessor
+439 info preinstall karma-html2js-preprocessor@0.1.0
+440 verbose linkStuff [ false,
+440 verbose linkStuff   false,
+440 verbose linkStuff   false,
+440 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+441 info linkStuff karma-html2js-preprocessor@0.1.0
+442 verbose linkBins karma-html2js-preprocessor@0.1.0
+443 verbose linkMans karma-html2js-preprocessor@0.1.0
+444 verbose rebuildBundles karma-html2js-preprocessor@0.1.0
+445 info install karma-html2js-preprocessor@0.1.0
+446 info postinstall karma-html2js-preprocessor@0.1.0
+447 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-jasmine
+448 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-jasmine
+449 info preinstall karma-jasmine@0.1.5
+450 verbose linkStuff [ false,
+450 verbose linkStuff   false,
+450 verbose linkStuff   false,
+450 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+451 info linkStuff karma-jasmine@0.1.5
+452 verbose linkBins karma-jasmine@0.1.5
+453 verbose linkMans karma-jasmine@0.1.5
+454 verbose rebuildBundles karma-jasmine@0.1.5
+455 info install karma-jasmine@0.1.5
+456 info postinstall karma-jasmine@0.1.5
+457 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-ng-html2js-preprocessor
+458 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-ng-html2js-preprocessor
+459 info preinstall karma-ng-html2js-preprocessor@0.1.0
+460 verbose linkStuff [ false,
+460 verbose linkStuff   false,
+460 verbose linkStuff   false,
+460 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+461 info linkStuff karma-ng-html2js-preprocessor@0.1.0
+462 verbose linkBins karma-ng-html2js-preprocessor@0.1.0
+463 verbose linkMans karma-ng-html2js-preprocessor@0.1.0
+464 verbose rebuildBundles karma-ng-html2js-preprocessor@0.1.0
+465 info install karma-ng-html2js-preprocessor@0.1.0
+466 info postinstall karma-ng-html2js-preprocessor@0.1.0
+467 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-ng-scenario
+468 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-ng-scenario
+469 info preinstall karma-ng-scenario@0.1.0
+470 verbose linkStuff [ false,
+470 verbose linkStuff   false,
+470 verbose linkStuff   false,
+470 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+471 info linkStuff karma-ng-scenario@0.1.0
+472 verbose linkBins karma-ng-scenario@0.1.0
+473 verbose linkMans karma-ng-scenario@0.1.0
+474 verbose rebuildBundles karma-ng-scenario@0.1.0
+475 info install karma-ng-scenario@0.1.0
+476 info postinstall karma-ng-scenario@0.1.0
+477 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-phantomjs-launcher
+478 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-phantomjs-launcher
+479 info preinstall karma-phantomjs-launcher@0.1.4
+480 verbose linkStuff [ false,
+480 verbose linkStuff   false,
+480 verbose linkStuff   false,
+480 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+481 info linkStuff karma-phantomjs-launcher@0.1.4
+482 verbose linkBins karma-phantomjs-launcher@0.1.4
+483 verbose linkMans karma-phantomjs-launcher@0.1.4
+484 verbose rebuildBundles karma-phantomjs-launcher@0.1.4
+485 verbose rebuildBundles [ '.bin', 'phantomjs' ]
+486 info install karma-phantomjs-launcher@0.1.4
+487 info postinstall karma-phantomjs-launcher@0.1.4
+488 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-requirejs
+489 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-requirejs
+490 info preinstall karma-requirejs@0.2.2
+491 verbose linkStuff [ false,
+491 verbose linkStuff   false,
+491 verbose linkStuff   false,
+491 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+492 info linkStuff karma-requirejs@0.2.2
+493 verbose linkBins karma-requirejs@0.2.2
+494 verbose linkMans karma-requirejs@0.2.2
+495 verbose rebuildBundles karma-requirejs@0.2.2
+496 info install karma-requirejs@0.2.2
+497 info postinstall karma-requirejs@0.2.2
+498 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-script-launcher
+499 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\karma-script-launcher
+500 info preinstall karma-script-launcher@0.1.0
+501 verbose linkStuff [ false,
+501 verbose linkStuff   false,
+501 verbose linkStuff   false,
+501 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+502 info linkStuff karma-script-launcher@0.1.0
+503 verbose linkBins karma-script-launcher@0.1.0
+504 verbose linkMans karma-script-launcher@0.1.0
+505 verbose rebuildBundles karma-script-launcher@0.1.0
+506 info install karma-script-launcher@0.1.0
+507 info postinstall karma-script-launcher@0.1.0
+508 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\load-grunt-tasks
+509 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\load-grunt-tasks
+510 info preinstall load-grunt-tasks@0.2.1
+511 verbose linkStuff [ false,
+511 verbose linkStuff   false,
+511 verbose linkStuff   false,
+511 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+512 info linkStuff load-grunt-tasks@0.2.1
+513 verbose linkBins load-grunt-tasks@0.2.1
+514 verbose linkMans load-grunt-tasks@0.2.1
+515 verbose rebuildBundles load-grunt-tasks@0.2.1
+516 verbose rebuildBundles [ 'findup-sync', 'globule' ]
+517 info install load-grunt-tasks@0.2.1
+518 info postinstall load-grunt-tasks@0.2.1
+519 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\lodash
+520 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\lodash
+521 info preinstall lodash@2.4.1
+522 verbose linkStuff [ false,
+522 verbose linkStuff   false,
+522 verbose linkStuff   false,
+522 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+523 info linkStuff lodash@2.4.1
+524 verbose linkBins lodash@2.4.1
+525 verbose linkMans lodash@2.4.1
+526 verbose rebuildBundles lodash@2.4.1
+527 info install lodash@2.4.1
+528 info postinstall lodash@2.4.1
+529 verbose rebuild bundle C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\mariasql
+530 info build C:\webstormwork\masion\2014.08.19.maisonJade\node_modules\mariasql
+531 info preinstall mariasql@0.1.21
+532 verbose linkStuff [ false,
+532 verbose linkStuff   false,
+532 verbose linkStuff   false,
+532 verbose linkStuff   'C:\\webstormwork\\masion\\2014.08.19.maisonJade\\node_modules' ]
+533 info linkStuff mariasql@0.1.21
+534 verbose linkBins mariasql@0.1.21
+535 verbose linkMans mariasql@0.1.21
+536 verbose rebuildBundles mariasql@0.1.21
+537 verbose rebuildBundles [ 'lru-cache' ]
+538 info install mariasql@0.1.21
+539 verbose unsafe-perm in lifecycle true
+540 info mariasql@0.1.21 Failed to exec install script
+541 error mariasql@0.1.21 install: `node-gyp rebuild`
+541 error Exit status 1
+542 error Failed at the mariasql@0.1.21 install script.
+542 error This is most likely a problem with the mariasql package,
+542 error not with npm itself.
+542 error Tell the author that this fails on your system:
+542 error     node-gyp rebuild
+542 error You can get their info via:
+542 error     npm owner ls mariasql
+542 error There is likely additional logging output above.
+543 error System Windows_NT 6.1.7601
+544 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+545 error cwd C:\webstormwork\masion\2014.08.19.maisonJade
+546 error node -v v0.10.28
+547 error npm -v 1.4.9
+548 error code ELIFECYCLE
+549 verbose exit [ 1, true ]

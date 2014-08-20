@@ -1,8 +1,9 @@
 extends layout
-
 block content
-  div(class='row clearfix')
-    div(class='col-md-12')
-      div(class='container' style='width: 960px;')
-          include partial/sidebar.html
-          include content/main.html
+    div(class='row clearfix')
+        div(class='col-md-12')
+            div(class='container' style='width: 960px;')
+                div(class='col-md-3')
+                    include partial/sidebar.html
+                div(class='col-md-9')
+                    include content/main.html

@@ -89,7 +89,7 @@ exports.insert = function (req, res) {
         res.on('row', function (row) {
         });
     }).on('end', function () {
-        res.render('1400-request/050-1400-requestWrite', {title: 'Mesong'});
+        res.render('requestWrite', {title: 'Mesong'});
     });
 };
 

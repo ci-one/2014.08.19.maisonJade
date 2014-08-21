@@ -1,0 +1,56 @@
+<div style="overflow: hidden; height: 90%">
+    <div><div class="text-center">
+        <iframe src="masion_header.html" class="center-block" width="50%" height="185px">
+        </iframe></div>
+        <a href="/index"><h1 style="margin-top: -150px" class="text-center"><img src="../images/logo_large.png" alt="메종디자인"></h1></a>
+
+    </div>
+
+    <nav class="navbar navbar-light" role="navigation">
+        <div class="col-md-12">
+            <div class="container" style="width: 960px;">
+                <ul class="nav nav-justified">
+
+                    <li ng-mouseover="">
+                        <a href="/introduce" >회사소개</a>
+
+                    </li>
+                    <!--<li>-->
+                    <!--<a href="#organization">조직도</a>-->
+                    <!--</li>-->
+                    <li>
+                        <a href="/portfolio" >포트폴리오</a>
+                    </li>
+                    <li>
+                        <a href="/requestWrite">견적문의</a>
+                    </li>
+                    <li>
+                        <a href="/contract" >계약공정</a>
+                    </li>
+                    <li>
+                        <a href="/direction" >오시는 길</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<script type="text/javascript" src="scripts/design/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/design/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/design/scripts.js"></script>
+<script src="scripts/design/respond.js"></script>
+<script>
+    var chkout = function () {
+        sessionStorage.setItem('name', '');
+        sessionStorage.setItem('role', '');
+        history.back();
+    };
+    $(document).ready(function () {
+        if (sessionStorage.getItem('role') == null || sessionStorage.getItem('role') == '') {
+            $('#loginsection').append("<a href='/login' style='font-size: 7px;'>로그인</a>");
+        } else {
+            $('#loginsection').append("<span>" + sessionStorage.getItem('name') + " 님 환영합니다 || </span><a href='' onclick='chkout()' style='font-size: 7px;'>로그아웃</a>");
+        }
+    });
+</script>

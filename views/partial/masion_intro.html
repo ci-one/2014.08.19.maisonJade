@@ -2,550 +2,563 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head><title>masion_intro</title>
-    <meta HTTP-EQUIV=refresh CONTENT=10;URL=/index>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="Generator" content="Hippo Animator 3.8"/>
-    <meta name="Description" content="이 애니메이션을 사용 하 여 만든 Hippo Animator. 방문 www.HippoStudios.co에 대 한 자세한."/>
-    <link rel="author" href="http://www.HippoStudios.co?Link=FV"/>
-    <style type="text/css">html, body {
-        height: 100%;
-        overflow: hidden;
-        border: 0;
-        margin: 0;
-        padding: 0;
-    }</style>
-    <script type="text/javascript">function F2(ShowLoader) {
-        var UA = navigator.userAgent;
-        var IE = -1;
-        if (UA.indexOf("MSIE") > -1) {
-            var RE = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
-            if (RE.exec(UA) != null) {
-                IE = parseFloat(RegExp.$1);
-            }
+<meta HTTP-EQUIV=refresh CONTENT=10;URL=/index>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="Generator" content="Hippo Animator 3.8"/>
+<meta name="Description" content="이 애니메이션을 사용 하 여 만든 Hippo Animator. 방문 www.HippoStudios.co에 대 한 자세한."/>
+<link rel="author" href="http://www.HippoStudios.co?Link=FV"/>
+<style type="text/css">html, body {
+    height: 100%;
+    overflow: hidden;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}</style>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script>
+    $('document').ready(function () {
+        var a = navigator.userAgent;
+        if (/msie|trident/i.test(a)) {
+            location.replace("/index");
         }
-        var HasTouch = (navigator.userAgent.match(/iPad|iPhone|iPod|Android/i) != null || screen.width <= 480) && ('ontouchstart' in document.documentElement);
-        var MouseDown = null, MouseUp = null, MouseMove = null;
-        if (HasTouch) {
-            MouseDown = "ontouchstart";
-            MouseUp = "ontouchend";
-            MouseMove = "ontouchmove";
-        } else {
-            MouseDown = "onmousedown";
-            MouseUp = "onmouseup";
-            MouseMove = "onmousemove";
+    });
+</script>
+<script type="text/javascript">function F2(ShowLoader) {
+    var UA = navigator.userAgent;
+    var IE = -1;
+    if (UA.indexOf("MSIE") > -1) {
+        var RE = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+        if (RE.exec(UA) != null) {
+            IE = parseFloat(RegExp.$1);
         }
-        var MF = "maison-ani/";
-        var B = "";
-        if (document.createElement("audio").canPlayType) {
-            B += "<!DOC" + "TYPE html>";
-        } else {
-            B += "<!DOC" + "TYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"VML\" >";
-        } else {
-            B += "<html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:svg=\"http://www.w3.org/2000/svg\" >";
-        }
-        B += "<head>";
-        B += "<title>masion_intro</title>";
-        B += "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />";
-        if (IE > -1 && IE < 9) {
-            B += "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=EmulateIE7\" />";
-        }
-        B += "<style type=\"text/css\">";
-        B += "div,input,textarea,video,object{display:none;position:absolute;padding:0;margin:0;}table,svg,img,iframe{table-layout:fixed;display:none;position:absolute;background-color:transparent;-webkit-user-select: none;-webkit-touch-callout: none;}table{table-layout:fixed;}td,form{padding:0;margin:0;}video,object{z-index:1;}img,image,v:image{background-repeat:no-repeat;image-rendering:-webkit-optimize-contrast;}.Background{position:relative;display:block;}body{margin:0;overflow:hidden;background-color:#D6A46E;}";
-        if (ShowLoader) {
-            B += ".LoaderText{font-family:Arial;color:#808080;text-align:center;font-size:12px;vertical-align:top;padding:0;width:120px;height:26px;}.LoaderBorder{width:120px;height:10px;background-color:#A9A9A9;border:2px solid #808080;padding:0;font-size:1px;}.LoaderBar{display:block;position:relative;background-color:#A0D232;font-size:1px;width:0%;height:100%;margin:0;}.Loader{width:120px;}";
-        }
-        B += ".V1{cursor:pointer;}";
-        if (IE > -1 && IE < 9) {
-            B += "v\\:*{behavior:url(#default#VML);position:absolute;display:none;}";
-        }
-        B += "</style>";
-        if (IE > -1 && IE < 9) {
-            B += "<xml:namespace ns=\"urn:schemas-microsoft-com:vml\" V2=\"v\" />";
-        }
-        B += "<script type=\"text/javascript\">";
-        B += "var V3,V4;";
-        B += "var V5,V6;";
-        var V7 = 0;
-        B += "var MF=\"" + MF + "\";";
-        B += "var V8=1;";
-        B += "var V9=1;";
-        B += "var V10;";
-        B += "var V11=new Array(125);";
-        B += "var V12=new Array(\"장면1\");";
-        B += "var C0,C0L0S22,C0L0S21,C0L0S20,C0L0S19,C0L0S18,C0L0S17,C0L0S16,C0L0S15,C0L0S14,C0L0S13,C0L0S12,C0L0S11,C0L0S10,C0L0S9,C0L0S8,C0L0S7,C0L0S6,C0L0S5,C0L0S4,C0L0S3,C0L0S2,C0L0S0;";
-        B += "var V13=1;";
-        B += "var V14=new Date();";
-        B += "var V15=(Math.PI*2)/360,V16=0;";
-        B += "var V17,V18=-1,V19=-1,V20=-1,V21=0,V22=0,V23=1,V24=125;";
-        B += "var V25=\"none\",V26=\"block\",V27=\"px\",V28=\"\";";
-        B += "var IE=" + IE + ",V29=0;";
-        B += "var V30=true,V31=false;";
-        B += "var V32=false,V33=false;";
-        B += "var V34=0,V35=0;";
-        B += "function F3(e){e=F4(e);if(e!=null){if(e.stopPropagation){e.stopPropagation();}if(e.preventDefault){e.preventDefault();}e.cancelBubble = true;e.returnValue=false;}return false;}";
-        B += "var V36=null;function F5(e){if(window.event){e=window.event;}if(e.touches){if(e.touches.length==0){return V36;}e=e.touches[0];}var Mouse=new Object();Mouse.X=e.clientX;Mouse.Y=e.clientY;";
-        B += "Mouse.X-=(V37-1000)/2;";
-        B += "Mouse.Y-=(V38-552)/2;";
-        B += "V36=Mouse;return Mouse;}";
-        B += "function F4(e){if(window.event){return window.event;}else{return e;}}";
-        B += "function F6(Angle){return 90*Math.round((Angle-45)/90);}";
-        if (IE > -1 && IE < 9) {
-            B += "function F7(Style,NewFilter){";
-            B += "var Filter=Style.indexOf(\"filter:\");";
-            B += "if(Filter==-1){";
-            B += "Style+=\"filter: progid:DXImageTransform.Microsoft.\"+NewFilter+\";\";";
-            B += "}else{";
-            B += "Style=Style.substring(0,Filter+7)+\" progid:DXImageTransform.Microsoft.\"+NewFilter+Style.substring(Filter+7,Style.length);";
-            B += "}";
-            B += "var MSFilter=Style.indexOf(\"-ms-filter:'\");";
-            B += "if(MSFilter==-1){";
-            B += "Style+=\"-ms-filter:'progid:DXImageTransform.Microsoft.\"+NewFilter+\"';\";";
-            B += "}else{";
-            B += "Style=Style.substring(0,MSFilter+12)+\"progid:DXImageTransform.Microsoft.\"+NewFilter+\", \"+Style.substring(MSFilter+12,Style.length);";
-            B += "}";
-            B += "return Style;";
-            B += "}";
-        }
-        B += "var V37=0,V38=0;";
-        B += "function F8() {if (parent.document.documentElement.clientWidth > 0){return parent.document.documentElement.clientWidth;}else{return F9(parent.window.innerWidth, parent.document.body.clientWidth);}}";
-        B += "function F10() {if (parent.document.documentElement.clientHeight > 0){return parent.document.documentElement.clientHeight;}else{return F9(parent.window.innerHeight, parent.document.body.clientHeight);}}";
-        B += "function F9(Value1, Value2) {";
-        B += "var Value=0;";
-        B += "if (!isNaN(Value1) && Value1 > Value) {Value= Value1;}if (!isNaN(Value2) && Value2 > Value) {Value= Value2;}";
-        B += "return Value;";
-        B += "}";
-        B += "function F11() {V37=F8();V38=F10();if(!V31){V31=V37!=V19||V38!=V20;}V19=V37;V20=V38;}";
-        B += "function F12(Id) {return document.getElementById(Id);}";
-        B += "function F13(){";
-        B += "V6.src=MF+\"desk.png\";";
-        B += "C0L0S22.src=MF+\"plan01_01.png\";";
-        B += "C0L0S21.src=MF+\"plan01_02.jpg\";";
-        B += "C0L0S20.src=MF+\"plan01_03.jpg\";";
-        B += "C0L0S19.src=MF+\"plan01_04.jpg\";";
-        B += "C0L0S18.src=MF+\"plan01_05.jpg\";";
-        B += "C0L0S17.src=MF+\"plan01_06.jpg\";";
-        B += "C0L0S16.src=MF+\"plan01_07.jpg\";";
-        B += "C0L0S15.src=MF+\"plan01_08.jpg\";";
-        B += "C0L0S14.src=MF+\"plan01_full.png\";";
-        B += "C0L0S13.src=MF+\"emptyplan.png\";";
-        B += "C0L0S12.src=MF+\"plan02_19.png\";";
-        B += "C0L0S11.src=MF+\"plan02_17.png\";";
-        B += "C0L0S10.src=MF+\"plan02_16.png\";";
-        B += "C0L0S9.src=MF+\"plan02_15.jpg\";";
-        B += "C0L0S8.src=MF+\"plan02_12.png\";";
-        B += "C0L0S7.src=MF+\"plan02_09.jpg\";";
-        B += "C0L0S6.src=MF+\"plan02_06.png\";";
-        B += "C0L0S5.src=MF+\"plan02_04.png\";";
-        B += "C0L0S4.src=MF+\"plan02_02.png\";";
-        B += "C0L0S3.src=MF+\"plan02_full.png\";";
-        B += "C0L0S2.src=MF+\"logo_large.png\";";
-        B += "C0L0S0.src=MF+\"Button_Button1.png\";";
-        B += "}";
-        B += "function GetTopUrl(NewUrl){top.location=NewUrl;}";
-        B += "var V39=false;";
-        B += "function F1(){GetTopUrl(\"/index\")}";
-        B += "function F14(){";
-        B += "V3=F12(\"L\");V40=F12(\"LB\");";
-        B += "V5=F12(\"Background\");";
-        B += "V6=F12(\"BackgroundI\");";
-        B += "C0=F12(\"C0\");V10=C0;C0L0S22=F12(\"C0L0S22\");C0L0S21=F12(\"C0L0S21\");C0L0S20=F12(\"C0L0S20\");C0L0S19=F12(\"C0L0S19\");C0L0S18=F12(\"C0L0S18\");C0L0S17=F12(\"C0L0S17\");C0L0S16=F12(\"C0L0S16\");C0L0S15=F12(\"C0L0S15\");C0L0S14=F12(\"C0L0S14\");C0L0S13=F12(\"C0L0S13\");C0L0S12=F12(\"C0L0S12\");C0L0S11=F12(\"C0L0S11\");C0L0S10=F12(\"C0L0S10\");C0L0S9=F12(\"C0L0S9\");C0L0S8=F12(\"C0L0S8\");C0L0S7=F12(\"C0L0S7\");C0L0S6=F12(\"C0L0S6\");C0L0S5=F12(\"C0L0S5\");C0L0S4=F12(\"C0L0S4\");C0L0S3=F12(\"C0L0S3\");C0L0S2=F12(\"C0L0S2\");C0L0S0=F12(\"C0L0S0\");";
-        B += "V19=-1;V20=-1;F11();";
-        if (ShowLoader) {
-            B += "V17=window.setTimeout(\"F15();\",100);";
-        } else {
-            B += "F13();";
-            B += "V14=new Date();";
-            B += "V17=window.setTimeout(\"F16();\",5);";
-        }
-        B += "}";
-        B += "function F17(Type,Div,X,Y,Width,Height,Opacity,Angle,FontSize,BorderWidth){";
-        B += "if(Opacity==0){Div.style.display=V25;return;}";
-        B += "V28=\"\";";
-        B += "if(Opacity<100){";
-        if (IE > -1 && IE < 9) {
-            B += "V28=F7(V28,\"Alpha(opacity=\"+Opacity+\")\");";
-        }
-        B += "}";
-        if (IE > -1 && IE < 9) {
-            B += "if(Opacity<100){";
-            B += "V28=F7(V28,\"chroma(Color=#FFFFFF)\");V28+=\"background-color:#FFFFFF;\";";
-            B += "}";
-        }
-        B += "if(FontSize>0){V28+=\"font-size:\"+FontSize+\"px;\";}";
-        B += "if(BorderWidth>0){V28+=\"border-width:\"+Math.round(BorderWidth)+\"px;\";Div.strokeWeight=BorderWidth.toString();}";
-        B += "if(Div.style.cssText!=V28){Div.style.cssText=V28;}";
-        B += "var NewLeft=X-(Width/2),NewTop=Y-(Height/2);";
-        if (IE > -1 && IE < 9) {
-            B += "Div.style.left=Math.round(NewLeft)+V27;";
-            B += "Div.style.top=Math.round(NewTop)+V27;";
-            B += "Div.style.width=(Math.round(NewLeft+Width)-Math.round(NewLeft))+V27;";
-            B += "Div.style.height=(Math.round(NewTop+Height)-Math.round(NewTop))+V27;";
-        } else {
-            B += "Div.style.left=NewLeft.toFixed(2)+V27;";
-            B += "Div.style.top=NewTop.toFixed(2)+V27;";
-            B += "Div.style.width=Width.toFixed(2)+V27;";
-            B += "Div.style.height=Height.toFixed(2)+V27;";
-            B += "Div.style.opacity=(Opacity/100);";
-        }
-        B += "Div.style.display=V26;";
-        B += "}";
-        B += "function F18(Type,Div){";
-        B += "V28=\"display:none;\";";
-        B += "if(Div.style.cssText!=V28){Div.style.cssText=V28;}";
-        B += "}";
-        B += "function F19(Index){";
-        B += "V16=0;";
-        B += "}";
-        B += "function F20(Div,Clip){";
-        B += "if(Clip){";
-        B += "Div.style.cssText=\"left:\"+((V37-1000)/2)+\"px;top:\"+((V38-552)/2)+\"px;width:1000px;height:552px;display:block;overflow:hidden;\";";
+    }
+    var HasTouch = (navigator.userAgent.match(/iPad|iPhone|iPod|Android/i) != null || screen.width <= 480) && ('ontouchstart' in document.documentElement);
+    var MouseDown = null, MouseUp = null, MouseMove = null;
+    if (HasTouch) {
+        MouseDown = "ontouchstart";
+        MouseUp = "ontouchend";
+        MouseMove = "ontouchmove";
+    } else {
+        MouseDown = "onmousedown";
+        MouseUp = "onmouseup";
+        MouseMove = "onmousemove";
+    }
+    var MF = "maison-ani/";
+    var B = "";
+    if (document.createElement("audio").canPlayType) {
+        B += "<!DOC" + "TYPE html>";
+    } else {
+        B += "<!DOC" + "TYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"VML\" >";
+    } else {
+        B += "<html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:svg=\"http://www.w3.org/2000/svg\" >";
+    }
+    B += "<head>";
+    B += "<title>masion_intro</title>";
+    B += "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />";
+    if (IE > -1 && IE < 9) {
+        B += "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=EmulateIE7\" />";
+    }
+    B += "<style type=\"text/css\">";
+    B += "div,input,textarea,video,object{display:none;position:absolute;padding:0;margin:0;}table,svg,img,iframe{table-layout:fixed;display:none;position:absolute;background-color:transparent;-webkit-user-select: none;-webkit-touch-callout: none;}table{table-layout:fixed;}td,form{padding:0;margin:0;}video,object{z-index:1;}img,image,v:image{background-repeat:no-repeat;image-rendering:-webkit-optimize-contrast;}.Background{position:relative;display:block;}body{margin:0;overflow:hidden;background-color:#D6A46E;}";
+    if (ShowLoader) {
+        B += ".LoaderText{font-family:Arial;color:#808080;text-align:center;font-size:12px;vertical-align:top;padding:0;width:120px;height:26px;}.LoaderBorder{width:120px;height:10px;background-color:#A9A9A9;border:2px solid #808080;padding:0;font-size:1px;}.LoaderBar{display:block;position:relative;background-color:#A0D232;font-size:1px;width:0%;height:100%;margin:0;}.Loader{width:120px;}";
+    }
+    B += ".V1{cursor:pointer;}";
+    if (IE > -1 && IE < 9) {
+        B += "v\\:*{behavior:url(#default#VML);position:absolute;display:none;}";
+    }
+    B += "</style>";
+    if (IE > -1 && IE < 9) {
+        B += "<xml:namespace ns=\"urn:schemas-microsoft-com:vml\" V2=\"v\" />";
+    }
+    B += "<script type=\"text/javascript\">";
+    B += "var V3,V4;";
+    B += "var V5,V6;";
+    var V7 = 0;
+    B += "var MF=\"" + MF + "\";";
+    B += "var V8=1;";
+    B += "var V9=1;";
+    B += "var V10;";
+    B += "var V11=new Array(125);";
+    B += "var V12=new Array(\"장면1\");";
+    B += "var C0,C0L0S22,C0L0S21,C0L0S20,C0L0S19,C0L0S18,C0L0S17,C0L0S16,C0L0S15,C0L0S14,C0L0S13,C0L0S12,C0L0S11,C0L0S10,C0L0S9,C0L0S8,C0L0S7,C0L0S6,C0L0S5,C0L0S4,C0L0S3,C0L0S2,C0L0S0;";
+    B += "var V13=1;";
+    B += "var V14=new Date();";
+    B += "var V15=(Math.PI*2)/360,V16=0;";
+    B += "var V17,V18=-1,V19=-1,V20=-1,V21=0,V22=0,V23=1,V24=125;";
+    B += "var V25=\"none\",V26=\"block\",V27=\"px\",V28=\"\";";
+    B += "var IE=" + IE + ",V29=0;";
+    B += "var V30=true,V31=false;";
+    B += "var V32=false,V33=false;";
+    B += "var V34=0,V35=0;";
+    B += "function F3(e){e=F4(e);if(e!=null){if(e.stopPropagation){e.stopPropagation();}if(e.preventDefault){e.preventDefault();}e.cancelBubble = true;e.returnValue=false;}return false;}";
+    B += "var V36=null;function F5(e){if(window.event){e=window.event;}if(e.touches){if(e.touches.length==0){return V36;}e=e.touches[0];}var Mouse=new Object();Mouse.X=e.clientX;Mouse.Y=e.clientY;";
+    B += "Mouse.X-=(V37-1000)/2;";
+    B += "Mouse.Y-=(V38-552)/2;";
+    B += "V36=Mouse;return Mouse;}";
+    B += "function F4(e){if(window.event){return window.event;}else{return e;}}";
+    B += "function F6(Angle){return 90*Math.round((Angle-45)/90);}";
+    if (IE > -1 && IE < 9) {
+        B += "function F7(Style,NewFilter){";
+        B += "var Filter=Style.indexOf(\"filter:\");";
+        B += "if(Filter==-1){";
+        B += "Style+=\"filter: progid:DXImageTransform.Microsoft.\"+NewFilter+\";\";";
         B += "}else{";
-        B += "Div.style.cssText=\"left:0px;top:0px;width:\"+V37+\"px;height:\"+V38+\"px;display:block;overflow:hidden;\";";
+        B += "Style=Style.substring(0,Filter+7)+\" progid:DXImageTransform.Microsoft.\"+NewFilter+Style.substring(Filter+7,Style.length);";
         B += "}";
+        B += "var MSFilter=Style.indexOf(\"-ms-filter:'\");";
+        B += "if(MSFilter==-1){";
+        B += "Style+=\"-ms-filter:'progid:DXImageTransform.Microsoft.\"+NewFilter+\"';\";";
+        B += "}else{";
+        B += "Style=Style.substring(0,MSFilter+12)+\"progid:DXImageTransform.Microsoft.\"+NewFilter+\", \"+Style.substring(MSFilter+12,Style.length);";
         B += "}";
-        if (ShowLoader) {
-            B += "function F15(){";
-            T = 0;
-            V7++;
-            B += "F21(MF+\"desk.png\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan01_01.png\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan01_02.jpg\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan01_03.jpg\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan01_04.jpg\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan01_05.jpg\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan01_06.jpg\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan01_07.jpg\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan01_08.jpg\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan01_full.png\",true,false);";
-            V7++;
-            B += "F21(MF+\"emptyplan.png\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan02_19.png\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan02_17.png\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan02_16.png\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan02_15.jpg\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan02_12.png\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan02_09.jpg\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan02_06.png\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan02_04.png\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan02_02.png\",true,false);";
-            V7++;
-            B += "F21(MF+\"plan02_full.png\",true,false);";
-            V7++;
-            B += "F21(MF+\"logo_large.png\",true,false);";
-            V7++;
-            B += "F21(MF+\"Button_Button1.png\",true,false);";
-            B += "F21(MF+\"ButtonPress_Button1.png\",false,false);";
-            B += "V17=window.setTimeout(\"F22();\",15);";
-            B += "}";
-            B += "function F21(Filename,Wait,BackgroundImage){";
-            B += "var I=document.createElement(\"img\");if(IE>8){I.style.cssText=\"position:absolute;top:-1px;width:1px;height:1px;\";document.getElementsByTagName(\"body\")[0].appendChild(I);}";
-            B += "if(Wait){I.onload=function(){V29++;};I.onerror=function(){V29++;};}";
-            B += "I.src=Filename;";
-            B += "}";
-            B += "function F22(){";
-            if (V7 > 0) {
-                B += "var Percent=Math.round(Math.min(100,(V29*100)/" + V7 + "));";
-                B += "V40.style.width=Percent+\"%\";";
-                B += "V3.style.display=V26;";
-                B += "V3.style.left=Math.round((V37-L.clientWidth)/2)+V27;";
-                B += "V3.style.top=Math.round((V38-L.clientHeight)/2)+V27;";
-            }
-            B += "if(V29>=" + V7 + "){";
-            B += "V3.style.display=V25;";
-            B += "F13();";
-            B += "V14=new Date();";
-            B += "V17=window.setTimeout(\"F16();\",15);";
-            B += "}else{";
-            B += "V17=window.setTimeout(\"F22();\",15);";
-            B += "}}";
-        }
-        B += "function F23(){";
-        B += "V6.style.cssText=\"display:block;\";";
-        B += "var BIZoom=Math.max(V37/400, V38/300);";
-        B += "V6.style.left=((V37-(BIZoom*400))/2)+V27;";
-        B += "V6.style.top=((V38-(BIZoom*300))/2)+V27;";
-        B += "V6.style.width=(BIZoom*400)+V27;";
-        B += "V6.style.height=(BIZoom*300)+V27;";
+        B += "return Style;";
         B += "}";
-        B += "function F24(){";
-        B += "F23();";
-        B += "V5.style.cssText=\"width:\"+V37+\"px;height:\"+V38+\"px;\";";
-        B += "F20(V10,true);";
-        B += "if(screen.width>1024){V8=1;}else if(screen.width>600){V8=40;}else if(screen.width>400){V8=60;}else{V8=80;}";
-        B += "V31=false;";
+    }
+    B += "var V37=0,V38=0;";
+    B += "function F8() {if (parent.document.documentElement.clientWidth > 0){return parent.document.documentElement.clientWidth;}else{return F9(parent.window.innerWidth, parent.document.body.clientWidth);}}";
+    B += "function F10() {if (parent.document.documentElement.clientHeight > 0){return parent.document.documentElement.clientHeight;}else{return F9(parent.window.innerHeight, parent.document.body.clientHeight);}}";
+    B += "function F9(Value1, Value2) {";
+    B += "var Value=0;";
+    B += "if (!isNaN(Value1) && Value1 > Value) {Value= Value1;}if (!isNaN(Value2) && Value2 > Value) {Value= Value2;}";
+    B += "return Value;";
+    B += "}";
+    B += "function F11() {V37=F8();V38=F10();if(!V31){V31=V37!=V19||V38!=V20;}V19=V37;V20=V38;}";
+    B += "function F12(Id) {return document.getElementById(Id);}";
+    B += "function F13(){";
+    B += "V6.src=MF+\"desk.png\";";
+    B += "C0L0S22.src=MF+\"plan01_01.png\";";
+    B += "C0L0S21.src=MF+\"plan01_02.jpg\";";
+    B += "C0L0S20.src=MF+\"plan01_03.jpg\";";
+    B += "C0L0S19.src=MF+\"plan01_04.jpg\";";
+    B += "C0L0S18.src=MF+\"plan01_05.jpg\";";
+    B += "C0L0S17.src=MF+\"plan01_06.jpg\";";
+    B += "C0L0S16.src=MF+\"plan01_07.jpg\";";
+    B += "C0L0S15.src=MF+\"plan01_08.jpg\";";
+    B += "C0L0S14.src=MF+\"plan01_full.png\";";
+    B += "C0L0S13.src=MF+\"emptyplan.png\";";
+    B += "C0L0S12.src=MF+\"plan02_19.png\";";
+    B += "C0L0S11.src=MF+\"plan02_17.png\";";
+    B += "C0L0S10.src=MF+\"plan02_16.png\";";
+    B += "C0L0S9.src=MF+\"plan02_15.jpg\";";
+    B += "C0L0S8.src=MF+\"plan02_12.png\";";
+    B += "C0L0S7.src=MF+\"plan02_09.jpg\";";
+    B += "C0L0S6.src=MF+\"plan02_06.png\";";
+    B += "C0L0S5.src=MF+\"plan02_04.png\";";
+    B += "C0L0S4.src=MF+\"plan02_02.png\";";
+    B += "C0L0S3.src=MF+\"plan02_full.png\";";
+    B += "C0L0S2.src=MF+\"logo_large.png\";";
+    B += "C0L0S0.src=MF+\"Button_Button1.png\";";
+    B += "}";
+    B += "function GetTopUrl(NewUrl){top.location=NewUrl;}";
+    B += "var V39=false;";
+    B += "function F1(){GetTopUrl(\"/index\")}";
+    B += "function F14(){";
+    B += "V3=F12(\"L\");V40=F12(\"LB\");";
+    B += "V5=F12(\"Background\");";
+    B += "V6=F12(\"BackgroundI\");";
+    B += "C0=F12(\"C0\");V10=C0;C0L0S22=F12(\"C0L0S22\");C0L0S21=F12(\"C0L0S21\");C0L0S20=F12(\"C0L0S20\");C0L0S19=F12(\"C0L0S19\");C0L0S18=F12(\"C0L0S18\");C0L0S17=F12(\"C0L0S17\");C0L0S16=F12(\"C0L0S16\");C0L0S15=F12(\"C0L0S15\");C0L0S14=F12(\"C0L0S14\");C0L0S13=F12(\"C0L0S13\");C0L0S12=F12(\"C0L0S12\");C0L0S11=F12(\"C0L0S11\");C0L0S10=F12(\"C0L0S10\");C0L0S9=F12(\"C0L0S9\");C0L0S8=F12(\"C0L0S8\");C0L0S7=F12(\"C0L0S7\");C0L0S6=F12(\"C0L0S6\");C0L0S5=F12(\"C0L0S5\");C0L0S4=F12(\"C0L0S4\");C0L0S3=F12(\"C0L0S3\");C0L0S2=F12(\"C0L0S2\");C0L0S0=F12(\"C0L0S0\");";
+    B += "V19=-1;V20=-1;F11();";
+    if (ShowLoader) {
+        B += "V17=window.setTimeout(\"F15();\",100);";
+    } else {
+        B += "F13();";
+        B += "V14=new Date();";
+        B += "V17=window.setTimeout(\"F16();\",5);";
+    }
+    B += "}";
+    B += "function F17(Type,Div,X,Y,Width,Height,Opacity,Angle,FontSize,BorderWidth){";
+    B += "if(Opacity==0){Div.style.display=V25;return;}";
+    B += "V28=\"\";";
+    B += "if(Opacity<100){";
+    if (IE > -1 && IE < 9) {
+        B += "V28=F7(V28,\"Alpha(opacity=\"+Opacity+\")\");";
+    }
+    B += "}";
+    if (IE > -1 && IE < 9) {
+        B += "if(Opacity<100){";
+        B += "V28=F7(V28,\"chroma(Color=#FFFFFF)\");V28+=\"background-color:#FFFFFF;\";";
         B += "}";
-        B += "function F16(){";
-        B += "if(V31){F24();}";
-        B += "var CTime=new Date();";
-        B += "var TSpan=CTime.getTime()-V14.getTime();";
-        B += "V14=CTime;";
-        B += "var SpanGap=Math.min(V8,Math.max(1,V8-TSpan+V21));";
-        B += "V21=SpanGap;";
-        B += "var Span=(TSpan/1000)*12;";
-        B += "if(Span>1){Span=1;};if(Span<-1){Span=-1;};";
-        B += "if(V30){V16+=Span*V9;}";
-        B += "if(V32&&((V9>0&&V16>=V35)||(V9<0&&V16<=V35))){V16=V35;V30=false;}";
-        B += "if(V33&&((V9>0&&V16>=V35)||(V9<0&&V16<=V35))){V16=V34;}";
-        B += "if(V9>0&&V16>V24&&V30&&!V32&&!V33){";
-        B += "if(V30){V30=false;}";
+    }
+    B += "if(FontSize>0){V28+=\"font-size:\"+FontSize+\"px;\";}";
+    B += "if(BorderWidth>0){V28+=\"border-width:\"+Math.round(BorderWidth)+\"px;\";Div.strokeWeight=BorderWidth.toString();}";
+    B += "if(Div.style.cssText!=V28){Div.style.cssText=V28;}";
+    B += "var NewLeft=X-(Width/2),NewTop=Y-(Height/2);";
+    if (IE > -1 && IE < 9) {
+        B += "Div.style.left=Math.round(NewLeft)+V27;";
+        B += "Div.style.top=Math.round(NewTop)+V27;";
+        B += "Div.style.width=(Math.round(NewLeft+Width)-Math.round(NewLeft))+V27;";
+        B += "Div.style.height=(Math.round(NewTop+Height)-Math.round(NewTop))+V27;";
+    } else {
+        B += "Div.style.left=NewLeft.toFixed(2)+V27;";
+        B += "Div.style.top=NewTop.toFixed(2)+V27;";
+        B += "Div.style.width=Width.toFixed(2)+V27;";
+        B += "Div.style.height=Height.toFixed(2)+V27;";
+        B += "Div.style.opacity=(Opacity/100);";
+    }
+    B += "Div.style.display=V26;";
+    B += "}";
+    B += "function F18(Type,Div){";
+    B += "V28=\"display:none;\";";
+    B += "if(Div.style.cssText!=V28){Div.style.cssText=V28;}";
+    B += "}";
+    B += "function F19(Index){";
+    B += "V16=0;";
+    B += "}";
+    B += "function F20(Div,Clip){";
+    B += "if(Clip){";
+    B += "Div.style.cssText=\"left:\"+((V37-1000)/2)+\"px;top:\"+((V38-552)/2)+\"px;width:1000px;height:552px;display:block;overflow:hidden;\";";
+    B += "}else{";
+    B += "Div.style.cssText=\"left:0px;top:0px;width:\"+V37+\"px;height:\"+V38+\"px;display:block;overflow:hidden;\";";
+    B += "}";
+    B += "}";
+    if (ShowLoader) {
+        B += "function F15(){";
+        T = 0;
+        V7++;
+        B += "F21(MF+\"desk.png\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan01_01.png\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan01_02.jpg\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan01_03.jpg\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan01_04.jpg\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan01_05.jpg\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan01_06.jpg\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan01_07.jpg\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan01_08.jpg\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan01_full.png\",true,false);";
+        V7++;
+        B += "F21(MF+\"emptyplan.png\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan02_19.png\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan02_17.png\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan02_16.png\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan02_15.jpg\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan02_12.png\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan02_09.jpg\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan02_06.png\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan02_04.png\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan02_02.png\",true,false);";
+        V7++;
+        B += "F21(MF+\"plan02_full.png\",true,false);";
+        V7++;
+        B += "F21(MF+\"logo_large.png\",true,false);";
+        V7++;
+        B += "F21(MF+\"Button_Button1.png\",true,false);";
+        B += "F21(MF+\"ButtonPress_Button1.png\",false,false);";
+        B += "V17=window.setTimeout(\"F22();\",15);";
         B += "}";
-        B += "if(V9<0&&V16<0&&V30&&!V32&&!V33){";
-        B += "if(V30){V30=false;V16=0;}";
+        B += "function F21(Filename,Wait,BackgroundImage){";
+        B += "var I=document.createElement(\"img\");if(IE>8){I.style.cssText=\"position:absolute;top:-1px;width:1px;height:1px;\";document.getElementsByTagName(\"body\")[0].appendChild(I);}";
+        B += "if(Wait){I.onload=function(){V29++;};I.onerror=function(){V29++;};}";
+        B += "I.src=Filename;";
         B += "}";
-        B += "var Pos=0,NX,NY,NA;";
-        B += "switch(V22){";
-        B += "case 0:";
-        B += "if(V16>=0&&V16<17){Pos=(V16-0)/17;NX=123.75+(Pos*152.30);NY=148.75+(Pos*45.50);F17(1,C0L0S22,NX,NY,250+(Pos*-127),242+(Pos*-123),100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=17){F17(1,C0L0S22,276.05,194.25,123,119,0,0,0,0);}";
-        B += "if(V16<2){F18(1,C0L0S21);}";
-        B += "if(V16>=2&&V16<22){Pos=(V16-2)/20;NX=375+(Pos*62.53);NY=147.50+(Pos*46.87);F17(1,C0L0S21,NX,NY,250+(Pos*-134),242+(Pos*-123),100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=22){F17(1,C0L0S21,437.53,194.37,116,119,0,0,0,0);}";
-        B += "if(V16<12){F18(1,C0L0S20);}";
-        B += "if(V16>=12&&V16<27){Pos=(V16-12)/15;NX=625.75+(Pos*-69.50);NY=148.75+(Pos*45.60);F17(1,C0L0S20,NX,NY,250+(Pos*-134),242+(Pos*-123),100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=27){F17(1,C0L0S20,556.25,194.35,116,119,0,0,0,0);}";
-        B += "if(V16>=0&&V16<17){Pos=(V16-0)/17;NX=877+(Pos*-168.78);NY=151.25+(Pos*46.39);F17(1,C0L0S19,NX,NY,250+(Pos*-120),242+(Pos*-116),100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=17){F17(1,C0L0S19,708.22,197.64,130,126,0,0,0,0);}";
-        B += "if(V16>=0&&V16<19){Pos=(V16-0)/19;NX=123.25+(Pos*151.77);NY=393.75+(Pos*-65.70);F17(1,C0L0S18,NX,NY,250+(Pos*-128),241+(Pos*-124),100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=19){F17(1,C0L0S18,275.02,328.05,122,117,0,0,0,0);}";
-        B += "if(V16<8){F18(1,C0L0S17);}";
-        B += "if(V16>=8&&V16<24){Pos=(V16-8)/16;NX=373.25+(Pos*74.57);NY=391.25+(Pos*-71.88);F17(1,C0L0S17,NX,NY,250+(Pos*-149),241+(Pos*-144),100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=24){F17(1,C0L0S17,447.82,319.37,101,97,0,0,0,0);}";
-        B += "if(V16>=0&&V16<18){Pos=(V16-0)/18;NX=626+(Pos*-66.68);NY=391.25+(Pos*-64.28);F17(1,C0L0S16,NX,NY,250+(Pos*-133),241+(Pos*-129),100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=18){F17(1,C0L0S16,559.32,326.97,117,112,0,0,0,0);}";
-        B += "if(V16<2){F18(1,C0L0S15);}";
-        B += "if(V16>=2&&V16<20){Pos=(V16-2)/18;NX=876.50+(Pos*-188.20);NY=392.25+(Pos*-60.95);F17(1,C0L0S15,NX,NY,250+(Pos*-134),241+(Pos*-122),100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=20){F17(1,C0L0S15,688.30,331.30,116,119,0,0,0,0);}";
-        B += "if(V16<20){F18(1,C0L0S14);}";
-        B += "if(V16>=20&&V16<35){Pos=(V16-20)/15;NX=502.64+(Pos*-2.64);NY=276.55+(Pos*-2.05);F17(1,C0L0S14,NX,NY,923+(Pos*77),446+(Pos*37),0+(Pos*100),0,0,0);}";
-        B += "if(V16>=35&&V16<45){NX=500;NY=274.50;F17(1,C0L0S14,NX,NY,1000,483,100,0,0,0);}";
-        B += "if(V16>=45&&V16<50){Pos=(V16-45)/5;NX=500;NY=274.50;F17(1,C0L0S14,NX,NY,1000,483,100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=50){F17(1,C0L0S14,500,274.50,1000,483,0,0,0,0);}";
-        B += "if(V16<62){F18(1,C0L0S13);}";
-        B += "if(V16>=62&&V16<84){Pos=(V16-62)/22;NX=500;NY=277.30;F17(1,C0L0S13,NX,NY,1000,522,0+(Pos*100),0,0,0);}";
-        B += "if(V16>=84&&V16<103){Pos=(V16-84)/19;NX=500;NY=277.30;F17(1,C0L0S13,NX,NY,1000,522,100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=103){F17(1,C0L0S13,500,277.30,1000,522,0,0,0,0);}";
-        B += "if(V16<50){F18(1,C0L0S12);}";
-        B += "if(V16>=50&&V16<62){Pos=(V16-50)/12;NX=937.67+(Pos*-0.67);NY=473+(Pos*-1);F17(1,C0L0S12,NX,NY,125,131,0+(Pos*100),0,0,0);}";
-        B += "if(V16>=62&&V16<94){NX=937;NY=472;F17(1,C0L0S12,NX,NY,125,131,100,0,0,0);}";
-        B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=937;NY=472;F17(1,C0L0S12,NX,NY,125,131,100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=103){F17(1,C0L0S12,937,472,125,131,0,0,0,0);}";
-        B += "if(V16<60){F18(1,C0L0S11);}";
-        B += "if(V16>=60&&V16<68){Pos=(V16-60)/8;NX=561.50;NY=472.25;F17(1,C0L0S11,NX,NY,125,131,0+(Pos*100),0,0,0);}";
-        B += "if(V16>=68&&V16<94){NX=561.50;NY=472.25;F17(1,C0L0S11,NX,NY,125,131,100,0,0,0);}";
-        B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=561.50;NY=472.25;F17(1,C0L0S11,NX,NY,125,131,100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=103){F17(1,C0L0S11,561.50,472.25,125,131,0,0,0,0);}";
-        B += "if(V16<54){F18(1,C0L0S10);}";
-        B += "if(V16>=54&&V16<62){Pos=(V16-54)/8;NX=313.33;NY=472.67;F17(1,C0L0S10,NX,NY,125,131,0+(Pos*100),0,0,0);}";
-        B += "if(V16>=62&&V16<94){NX=313.33;NY=472.67;F17(1,C0L0S10,NX,NY,125,131,100,0,0,0);}";
-        B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=313.33;NY=472.67;F17(1,C0L0S10,NX,NY,125,131,100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=103){F17(1,C0L0S10,313.33,472.67,125,131,0,0,0,0);}";
-        B += "if(V16<64){F18(1,C0L0S9);}";
-        B += "if(V16>=64&&V16<72){Pos=(V16-64)/8;NX=812.64;NY=342.58;F17(1,C0L0S9,NX,NY,125,130,0+(Pos*100),0,0,0);}";
-        B += "if(V16>=72&&V16<94){NX=812.64;NY=342.58;F17(1,C0L0S9,NX,NY,125,130,100,0,0,0);}";
-        B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=812.64;NY=342.58;F17(1,C0L0S9,NX,NY,125,130,100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=103){F17(1,C0L0S9,812.64,342.58,125,130,0,0,0,0);}";
-        B += "if(V16<67){F18(1,C0L0S8);}";
-        B += "if(V16>=67&&V16<86){Pos=(V16-67)/19;NX=124.75;NY=407.25;F17(1,C0L0S8,NX,NY,250,261,0+(Pos*100),0,0,0);}";
-        B += "if(V16>=86&&V16<94){NX=124.75;NY=407.25;F17(1,C0L0S8,NX,NY,250,261,100,0,0,0);}";
-        B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=124.75;NY=407.25;F17(1,C0L0S8,NX,NY,250,261,100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=103){F17(1,C0L0S8,124.75,407.25,250,261,0,0,0,0);}";
-        B += "if(V16<60){F18(1,C0L0S7);}";
-        B += "if(V16>=60&&V16<85){Pos=(V16-60)/25;NX=437.50;NY=212.10;F17(1,C0L0S7,NX,NY,125,130,0+(Pos*100),0,0,0);}";
-        B += "if(V16>=85&&V16<94){Pos=(V16-85)/9;NX=437.50;NY=212.10;F17(1,C0L0S7,NX,NY,125,130,100+(Pos*-86),0,0,0);}";
-        B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=437.50;NY=212.10;F17(1,C0L0S7,NX,NY,125,130,14+(Pos*-14),0,0,0);}";
-        B += "if(V16>=103){F17(1,C0L0S7,437.50,212.10,125,130,0,0,0,0);}";
-        B += "if(V16<69){F18(1,C0L0S6);}";
-        B += "if(V16>=69&&V16<77){Pos=(V16-69)/8;NX=937.25;NY=82;F17(1,C0L0S6,NX,NY,125,131,0+(Pos*100),0,0,0);}";
-        B += "if(V16>=77&&V16<94){NX=937.25;NY=82;F17(1,C0L0S6,NX,NY,125,131,100,0,0,0);}";
-        B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=937.25;NY=82;F17(1,C0L0S6,NX,NY,125,131,100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=103){F17(1,C0L0S6,937.25,82,125,131,0,0,0,0);}";
-        B += "if(V16<73){F18(1,C0L0S5);}";
-        B += "if(V16>=73&&V16<81){Pos=(V16-73)/8;NX=688.50;NY=81.50;F17(1,C0L0S5,NX,NY,125,131,0+(Pos*100),0,0,0);}";
-        B += "if(V16>=81&&V16<94){NX=688.50;NY=81.50;F17(1,C0L0S5,NX,NY,125,131,100,0,0,0);}";
-        B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=688.50;NY=81.50;F17(1,C0L0S5,NX,NY,125,131,100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=103){F17(1,C0L0S5,688.50,81.50,125,131,0,0,0,0);}";
-        B += "if(V16<76){F18(1,C0L0S4);}";
-        B += "if(V16>=76&&V16<84){Pos=(V16-76)/8;NX=187.75;NY=81.75;F17(1,C0L0S4,NX,NY,125,131,0+(Pos*100),0,0,0);}";
-        B += "if(V16>=84&&V16<94){NX=187.75;NY=81.75;F17(1,C0L0S4,NX,NY,125,131,100,0,0,0);}";
-        B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=187.75;NY=81.75;F17(1,C0L0S4,NX,NY,125,131,100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=103){F17(1,C0L0S4,187.75,81.75,125,131,0,0,0,0);}";
-        B += "if(V16<88){F18(1,C0L0S3);}";
-        B += "if(V16>=88&&V16<95){Pos=(V16-88)/7;NX=500;NY=277.30;F17(1,C0L0S3,NX,NY,1000,522,0+(Pos*100),0,0,0);}";
-        B += "if(V16>=95&&V16<103){Pos=(V16-95)/8;NX=500;NY=277.30;F17(1,C0L0S3,NX,NY,1000,522,100+(Pos*-100),0,0,0);}";
-        B += "if(V16>=103){F17(1,C0L0S3,500,277.30,1000,522,0,0,0,0);}";
-        B += "if(V16<100){F18(1,C0L0S2);}";
-        B += "if(V16>=100&&V16<107){Pos=(V16-100)/7;NX=518.50;NY=251.75;F17(1,C0L0S2,NX,NY,326,137,0+(Pos*100),0,0,0);}";
-        B += "if(V16>=107&&V16<117){NX=518.50;NY=251.75;F17(1,C0L0S2,NX,NY,326,137,100,0,0,0);}";
-        B += "if(V16>=117&&V16<125){Pos=(V16-117)/8;NX=518.50;NY=251.75;F17(1,C0L0S2,NX,NY,326,137,100+(Pos*-82),0,0,0);}";
-        B += "if(V16>=125){F17(1,C0L0S2,518.50,251.75,326,137,18,0,0,0);}";
-        B += "if(V16>=0){F17(1,C0L0S0,921.50,524.49,185,42.98,100,0,0,0);}";
-        B += "break;";
-        B += "}";
-        B += "var IntTime=parseInt(V16);if(IntTime!=V18){V18=IntTime;";
-        B += "}";
-        B += "V17=window.setTimeout(\"F16();\",SpanGap);";
-        B += "}";
-        B += "function F25(X,Y,OX,OY,Angle){X-=OX;Y-=OY;var r=Angle*(Math.PI/180);var ct=Math.cos(r);var st=Math.sin(r);var x=ct*X-st*Y;var y=st*X+ct*Y;var Point=new Object();Point.X=x+OX;Point.Y=y+OY;return Point;}";
-        B += "<" + "/script>";
-        B += "</" + "head>";
-        B += "<body onload=\"window.setTimeout('F14();', 100);\" onresize=\"F11();\" onorientationchange=\"F11();\" ondragstart=\"return false;\" style=\"cursor:default;\" " + MouseDown + "=\"var m=F5(event);\">";
-        B += "<div id=\"Background\" class=\"Background\">";
-        B += "<img id=\"BackgroundI\" />";
-        B += "</div>";
-        if (ShowLoader) {
-            B += "<table id=\"L\" class=\"Loader\"><tr><td class=\"LoaderText\">Hippo Studios</td></tr><tr><td ><img src=\"data:image/png;base64,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\" style=\"width:32px;height:32px;display:block;position:relative;padding-bottom:2px;padding-left:44px\" /></td></tr><tr><td class=\"LoaderBorder\"><div id=\"LB\" class=\"LoaderBar\"></div></td></tr></table>";
+        B += "function F22(){";
+        if (V7 > 0) {
+            B += "var Percent=Math.round(Math.min(100,(V29*100)/" + V7 + "));";
+            B += "V40.style.width=Percent+\"%\";";
+            B += "V3.style.display=V26;";
+            B += "V3.style.left=Math.round((V37-L.clientWidth)/2)+V27;";
+            B += "V3.style.top=Math.round((V38-L.clientHeight)/2)+V27;";
         }
-        B += "<div id=\"C0\">";
-        B += "<span id=\"C0L0\" >";
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S22\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S22\" />";
+        B += "if(V29>=" + V7 + "){";
+        B += "V3.style.display=V25;";
+        B += "F13();";
+        B += "V14=new Date();";
+        B += "V17=window.setTimeout(\"F16();\",15);";
+        B += "}else{";
+        B += "V17=window.setTimeout(\"F22();\",15);";
+        B += "}}";
+    }
+    B += "function F23(){";
+    B += "V6.style.cssText=\"display:block;\";";
+    B += "var BIZoom=Math.max(V37/400, V38/300);";
+    B += "V6.style.left=((V37-(BIZoom*400))/2)+V27;";
+    B += "V6.style.top=((V38-(BIZoom*300))/2)+V27;";
+    B += "V6.style.width=(BIZoom*400)+V27;";
+    B += "V6.style.height=(BIZoom*300)+V27;";
+    B += "}";
+    B += "function F24(){";
+    B += "F23();";
+    B += "V5.style.cssText=\"width:\"+V37+\"px;height:\"+V38+\"px;\";";
+    B += "F20(V10,true);";
+    B += "if(screen.width>1024){V8=1;}else if(screen.width>600){V8=40;}else if(screen.width>400){V8=60;}else{V8=80;}";
+    B += "V31=false;";
+    B += "}";
+    B += "function F16(){";
+    B += "if(V31){F24();}";
+    B += "var CTime=new Date();";
+    B += "var TSpan=CTime.getTime()-V14.getTime();";
+    B += "V14=CTime;";
+    B += "var SpanGap=Math.min(V8,Math.max(1,V8-TSpan+V21));";
+    B += "V21=SpanGap;";
+    B += "var Span=(TSpan/1000)*12;";
+    B += "if(Span>1){Span=1;};if(Span<-1){Span=-1;};";
+    B += "if(V30){V16+=Span*V9;}";
+    B += "if(V32&&((V9>0&&V16>=V35)||(V9<0&&V16<=V35))){V16=V35;V30=false;}";
+    B += "if(V33&&((V9>0&&V16>=V35)||(V9<0&&V16<=V35))){V16=V34;}";
+    B += "if(V9>0&&V16>V24&&V30&&!V32&&!V33){";
+    B += "if(V30){V30=false;}";
+    B += "}";
+    B += "if(V9<0&&V16<0&&V30&&!V32&&!V33){";
+    B += "if(V30){V30=false;V16=0;}";
+    B += "}";
+    B += "var Pos=0,NX,NY,NA;";
+    B += "switch(V22){";
+    B += "case 0:";
+    B += "if(V16>=0&&V16<17){Pos=(V16-0)/17;NX=123.75+(Pos*152.30);NY=148.75+(Pos*45.50);F17(1,C0L0S22,NX,NY,250+(Pos*-127),242+(Pos*-123),100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=17){F17(1,C0L0S22,276.05,194.25,123,119,0,0,0,0);}";
+    B += "if(V16<2){F18(1,C0L0S21);}";
+    B += "if(V16>=2&&V16<22){Pos=(V16-2)/20;NX=375+(Pos*62.53);NY=147.50+(Pos*46.87);F17(1,C0L0S21,NX,NY,250+(Pos*-134),242+(Pos*-123),100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=22){F17(1,C0L0S21,437.53,194.37,116,119,0,0,0,0);}";
+    B += "if(V16<12){F18(1,C0L0S20);}";
+    B += "if(V16>=12&&V16<27){Pos=(V16-12)/15;NX=625.75+(Pos*-69.50);NY=148.75+(Pos*45.60);F17(1,C0L0S20,NX,NY,250+(Pos*-134),242+(Pos*-123),100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=27){F17(1,C0L0S20,556.25,194.35,116,119,0,0,0,0);}";
+    B += "if(V16>=0&&V16<17){Pos=(V16-0)/17;NX=877+(Pos*-168.78);NY=151.25+(Pos*46.39);F17(1,C0L0S19,NX,NY,250+(Pos*-120),242+(Pos*-116),100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=17){F17(1,C0L0S19,708.22,197.64,130,126,0,0,0,0);}";
+    B += "if(V16>=0&&V16<19){Pos=(V16-0)/19;NX=123.25+(Pos*151.77);NY=393.75+(Pos*-65.70);F17(1,C0L0S18,NX,NY,250+(Pos*-128),241+(Pos*-124),100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=19){F17(1,C0L0S18,275.02,328.05,122,117,0,0,0,0);}";
+    B += "if(V16<8){F18(1,C0L0S17);}";
+    B += "if(V16>=8&&V16<24){Pos=(V16-8)/16;NX=373.25+(Pos*74.57);NY=391.25+(Pos*-71.88);F17(1,C0L0S17,NX,NY,250+(Pos*-149),241+(Pos*-144),100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=24){F17(1,C0L0S17,447.82,319.37,101,97,0,0,0,0);}";
+    B += "if(V16>=0&&V16<18){Pos=(V16-0)/18;NX=626+(Pos*-66.68);NY=391.25+(Pos*-64.28);F17(1,C0L0S16,NX,NY,250+(Pos*-133),241+(Pos*-129),100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=18){F17(1,C0L0S16,559.32,326.97,117,112,0,0,0,0);}";
+    B += "if(V16<2){F18(1,C0L0S15);}";
+    B += "if(V16>=2&&V16<20){Pos=(V16-2)/18;NX=876.50+(Pos*-188.20);NY=392.25+(Pos*-60.95);F17(1,C0L0S15,NX,NY,250+(Pos*-134),241+(Pos*-122),100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=20){F17(1,C0L0S15,688.30,331.30,116,119,0,0,0,0);}";
+    B += "if(V16<20){F18(1,C0L0S14);}";
+    B += "if(V16>=20&&V16<35){Pos=(V16-20)/15;NX=502.64+(Pos*-2.64);NY=276.55+(Pos*-2.05);F17(1,C0L0S14,NX,NY,923+(Pos*77),446+(Pos*37),0+(Pos*100),0,0,0);}";
+    B += "if(V16>=35&&V16<45){NX=500;NY=274.50;F17(1,C0L0S14,NX,NY,1000,483,100,0,0,0);}";
+    B += "if(V16>=45&&V16<50){Pos=(V16-45)/5;NX=500;NY=274.50;F17(1,C0L0S14,NX,NY,1000,483,100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=50){F17(1,C0L0S14,500,274.50,1000,483,0,0,0,0);}";
+    B += "if(V16<62){F18(1,C0L0S13);}";
+    B += "if(V16>=62&&V16<84){Pos=(V16-62)/22;NX=500;NY=277.30;F17(1,C0L0S13,NX,NY,1000,522,0+(Pos*100),0,0,0);}";
+    B += "if(V16>=84&&V16<103){Pos=(V16-84)/19;NX=500;NY=277.30;F17(1,C0L0S13,NX,NY,1000,522,100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=103){F17(1,C0L0S13,500,277.30,1000,522,0,0,0,0);}";
+    B += "if(V16<50){F18(1,C0L0S12);}";
+    B += "if(V16>=50&&V16<62){Pos=(V16-50)/12;NX=937.67+(Pos*-0.67);NY=473+(Pos*-1);F17(1,C0L0S12,NX,NY,125,131,0+(Pos*100),0,0,0);}";
+    B += "if(V16>=62&&V16<94){NX=937;NY=472;F17(1,C0L0S12,NX,NY,125,131,100,0,0,0);}";
+    B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=937;NY=472;F17(1,C0L0S12,NX,NY,125,131,100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=103){F17(1,C0L0S12,937,472,125,131,0,0,0,0);}";
+    B += "if(V16<60){F18(1,C0L0S11);}";
+    B += "if(V16>=60&&V16<68){Pos=(V16-60)/8;NX=561.50;NY=472.25;F17(1,C0L0S11,NX,NY,125,131,0+(Pos*100),0,0,0);}";
+    B += "if(V16>=68&&V16<94){NX=561.50;NY=472.25;F17(1,C0L0S11,NX,NY,125,131,100,0,0,0);}";
+    B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=561.50;NY=472.25;F17(1,C0L0S11,NX,NY,125,131,100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=103){F17(1,C0L0S11,561.50,472.25,125,131,0,0,0,0);}";
+    B += "if(V16<54){F18(1,C0L0S10);}";
+    B += "if(V16>=54&&V16<62){Pos=(V16-54)/8;NX=313.33;NY=472.67;F17(1,C0L0S10,NX,NY,125,131,0+(Pos*100),0,0,0);}";
+    B += "if(V16>=62&&V16<94){NX=313.33;NY=472.67;F17(1,C0L0S10,NX,NY,125,131,100,0,0,0);}";
+    B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=313.33;NY=472.67;F17(1,C0L0S10,NX,NY,125,131,100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=103){F17(1,C0L0S10,313.33,472.67,125,131,0,0,0,0);}";
+    B += "if(V16<64){F18(1,C0L0S9);}";
+    B += "if(V16>=64&&V16<72){Pos=(V16-64)/8;NX=812.64;NY=342.58;F17(1,C0L0S9,NX,NY,125,130,0+(Pos*100),0,0,0);}";
+    B += "if(V16>=72&&V16<94){NX=812.64;NY=342.58;F17(1,C0L0S9,NX,NY,125,130,100,0,0,0);}";
+    B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=812.64;NY=342.58;F17(1,C0L0S9,NX,NY,125,130,100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=103){F17(1,C0L0S9,812.64,342.58,125,130,0,0,0,0);}";
+    B += "if(V16<67){F18(1,C0L0S8);}";
+    B += "if(V16>=67&&V16<86){Pos=(V16-67)/19;NX=124.75;NY=407.25;F17(1,C0L0S8,NX,NY,250,261,0+(Pos*100),0,0,0);}";
+    B += "if(V16>=86&&V16<94){NX=124.75;NY=407.25;F17(1,C0L0S8,NX,NY,250,261,100,0,0,0);}";
+    B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=124.75;NY=407.25;F17(1,C0L0S8,NX,NY,250,261,100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=103){F17(1,C0L0S8,124.75,407.25,250,261,0,0,0,0);}";
+    B += "if(V16<60){F18(1,C0L0S7);}";
+    B += "if(V16>=60&&V16<85){Pos=(V16-60)/25;NX=437.50;NY=212.10;F17(1,C0L0S7,NX,NY,125,130,0+(Pos*100),0,0,0);}";
+    B += "if(V16>=85&&V16<94){Pos=(V16-85)/9;NX=437.50;NY=212.10;F17(1,C0L0S7,NX,NY,125,130,100+(Pos*-86),0,0,0);}";
+    B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=437.50;NY=212.10;F17(1,C0L0S7,NX,NY,125,130,14+(Pos*-14),0,0,0);}";
+    B += "if(V16>=103){F17(1,C0L0S7,437.50,212.10,125,130,0,0,0,0);}";
+    B += "if(V16<69){F18(1,C0L0S6);}";
+    B += "if(V16>=69&&V16<77){Pos=(V16-69)/8;NX=937.25;NY=82;F17(1,C0L0S6,NX,NY,125,131,0+(Pos*100),0,0,0);}";
+    B += "if(V16>=77&&V16<94){NX=937.25;NY=82;F17(1,C0L0S6,NX,NY,125,131,100,0,0,0);}";
+    B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=937.25;NY=82;F17(1,C0L0S6,NX,NY,125,131,100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=103){F17(1,C0L0S6,937.25,82,125,131,0,0,0,0);}";
+    B += "if(V16<73){F18(1,C0L0S5);}";
+    B += "if(V16>=73&&V16<81){Pos=(V16-73)/8;NX=688.50;NY=81.50;F17(1,C0L0S5,NX,NY,125,131,0+(Pos*100),0,0,0);}";
+    B += "if(V16>=81&&V16<94){NX=688.50;NY=81.50;F17(1,C0L0S5,NX,NY,125,131,100,0,0,0);}";
+    B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=688.50;NY=81.50;F17(1,C0L0S5,NX,NY,125,131,100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=103){F17(1,C0L0S5,688.50,81.50,125,131,0,0,0,0);}";
+    B += "if(V16<76){F18(1,C0L0S4);}";
+    B += "if(V16>=76&&V16<84){Pos=(V16-76)/8;NX=187.75;NY=81.75;F17(1,C0L0S4,NX,NY,125,131,0+(Pos*100),0,0,0);}";
+    B += "if(V16>=84&&V16<94){NX=187.75;NY=81.75;F17(1,C0L0S4,NX,NY,125,131,100,0,0,0);}";
+    B += "if(V16>=94&&V16<103){Pos=(V16-94)/9;NX=187.75;NY=81.75;F17(1,C0L0S4,NX,NY,125,131,100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=103){F17(1,C0L0S4,187.75,81.75,125,131,0,0,0,0);}";
+    B += "if(V16<88){F18(1,C0L0S3);}";
+    B += "if(V16>=88&&V16<95){Pos=(V16-88)/7;NX=500;NY=277.30;F17(1,C0L0S3,NX,NY,1000,522,0+(Pos*100),0,0,0);}";
+    B += "if(V16>=95&&V16<103){Pos=(V16-95)/8;NX=500;NY=277.30;F17(1,C0L0S3,NX,NY,1000,522,100+(Pos*-100),0,0,0);}";
+    B += "if(V16>=103){F17(1,C0L0S3,500,277.30,1000,522,0,0,0,0);}";
+    B += "if(V16<100){F18(1,C0L0S2);}";
+    B += "if(V16>=100&&V16<107){Pos=(V16-100)/7;NX=518.50;NY=251.75;F17(1,C0L0S2,NX,NY,326,137,0+(Pos*100),0,0,0);}";
+    B += "if(V16>=107&&V16<117){NX=518.50;NY=251.75;F17(1,C0L0S2,NX,NY,326,137,100,0,0,0);}";
+    B += "if(V16>=117&&V16<125){Pos=(V16-117)/8;NX=518.50;NY=251.75;F17(1,C0L0S2,NX,NY,326,137,100+(Pos*-82),0,0,0);}";
+    B += "if(V16>=125){F17(1,C0L0S2,518.50,251.75,326,137,18,0,0,0);}";
+    B += "if(V16>=0){F17(1,C0L0S0,921.50,524.49,185,42.98,100,0,0,0);}";
+    B += "break;";
+    B += "}";
+    B += "var IntTime=parseInt(V16);if(IntTime!=V18){V18=IntTime;";
+    B += "}";
+    B += "V17=window.setTimeout(\"F16();\",SpanGap);";
+    B += "}";
+    B += "function F25(X,Y,OX,OY,Angle){X-=OX;Y-=OY;var r=Angle*(Math.PI/180);var ct=Math.cos(r);var st=Math.sin(r);var x=ct*X-st*Y;var y=st*X+ct*Y;var Point=new Object();Point.X=x+OX;Point.Y=y+OY;return Point;}";
+    B += "<" + "/script>";
+    B += "</" + "head>";
+    B += "<body onload=\"window.setTimeout('F14();', 100);\" onresize=\"F11();\" onorientationchange=\"F11();\" ondragstart=\"return false;\" style=\"cursor:default;\" " + MouseDown + "=\"var m=F5(event);\">";
+    B += "<div id=\"Background\" class=\"Background\">";
+    B += "<img id=\"BackgroundI\" />";
+    B += "</div>";
+    if (ShowLoader) {
+        B += "<table id=\"L\" class=\"Loader\"><tr><td class=\"LoaderText\">Hippo Studios</td></tr><tr><td ><img src=\"data:image/png;base64,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\" style=\"width:32px;height:32px;display:block;position:relative;padding-bottom:2px;padding-left:44px\" /></td></tr><tr><td class=\"LoaderBorder\"><div id=\"LB\" class=\"LoaderBar\"></div></td></tr></table>";
+    }
+    B += "<div id=\"C0\">";
+    B += "<span id=\"C0L0\" >";
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S22\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S22\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S21\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S21\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S20\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S20\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S19\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S19\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S18\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S18\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S17\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S17\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S16\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S16\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S15\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S15\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S14\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S14\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S13\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S13\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S12\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S12\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S11\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S11\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S10\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S10\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S9\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S9\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S8\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S8\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S7\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S7\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S6\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S6\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S5\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S5\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S4\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S4\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S3\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S3\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S2\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S2\" />";
+    }
+    if (IE > -1 && IE < 9) {
+        B += "<v:image id=\"C0L0S0\" class=\"V1\" " + MouseDown + "=\"this.src=MF+'ButtonPress_Button1.png';\" " + MouseUp + "=\"this.src=MF+'Button_Button1.png';F1();return F3(event);\" onmouseout=\"this.src=MF+'Button_Button1.png';\" ></v:image>";
+    } else {
+        B += "<img id=\"C0L0S0\" class=\"V1\" " + MouseDown + "=\"this.src=MF+'ButtonPress_Button1.png';\" " + MouseUp + "=\"this.src=MF+'Button_Button1.png';F1();return F3(event);\" onmouseout=\"this.src=MF+'Button_Button1.png';\" />";
+    }
+    B += "</span>";
+    B += "</div>";
+    B += "</" + "body></html>";
+    document.body.innerHTML = "<iframe id=\"Movie\" style=\"width:100%;height:100%;\" scrolling=\"no\" frameborder=\"0\"></iframe>";
+    var IFrame = document.body.firstChild;
+    var Doc = IFrame.contentDocument || IFrame.contentWindow.document;
+    Doc.open();
+    Doc.write(B);
+    Doc.close();
+    if (window == window.top) {
+        window.onorientationchange = function () {
+            document.getElementById("Movie").style.cssText = "width:" + window.innerWidth + "px;height:" + window.innerHeight + "px;";
         }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S21\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S21\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S20\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S20\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S19\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S19\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S18\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S18\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S17\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S17\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S16\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S16\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S15\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S15\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S14\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S14\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S13\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S13\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S12\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S12\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S11\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S11\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S10\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S10\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S9\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S9\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S8\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S8\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S7\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S7\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S6\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S6\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S5\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S5\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S4\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S4\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S3\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S3\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S2\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S2\" />";
-        }
-        if (IE > -1 && IE < 9) {
-            B += "<v:image id=\"C0L0S0\" class=\"V1\" " + MouseDown + "=\"this.src=MF+'ButtonPress_Button1.png';\" " + MouseUp + "=\"this.src=MF+'Button_Button1.png';F1();return F3(event);\" onmouseout=\"this.src=MF+'Button_Button1.png';\" ></v:image>";
-        } else {
-            B += "<img id=\"C0L0S0\" class=\"V1\" " + MouseDown + "=\"this.src=MF+'ButtonPress_Button1.png';\" " + MouseUp + "=\"this.src=MF+'Button_Button1.png';F1();return F3(event);\" onmouseout=\"this.src=MF+'Button_Button1.png';\" />";
-        }
-        B += "</span>";
-        B += "</div>";
-        B += "</" + "body></html>";
-        document.body.innerHTML = "<iframe id=\"Movie\" style=\"width:100%;height:100%;\" scrolling=\"no\" frameborder=\"0\"></iframe>";
-        var IFrame = document.body.firstChild;
-        var Doc = IFrame.contentDocument || IFrame.contentWindow.document;
-        Doc.open();
-        Doc.write(B);
-        Doc.close();
-        if (window == window.top) {
-            window.onorientationchange = function () {
-                document.getElementById("Movie").style.cssText = "width:" + window.innerWidth + "px;height:" + window.innerHeight + "px;";
-            }
-        }
-    }</script>
+    }
+}
+
+
+</script>
 </head>
 <body onload="F2(true);" style="width:100%;height:100%;background-color:#D6A46E;"
       onresize="if(window==window.top){document.getElementById('Movie').style.cssText='width:'+(window.innerWidth||document.documentElement.clientWidth)+'px;height:'+(window.innerHeight||document.documentElement.clientHeight)+'px;';}">
 <div id="Frame"></div>
+
 </body>
 </html>

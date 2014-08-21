@@ -6,6 +6,10 @@ var router = express.Router()
 router.get('/', function (req, res) {
     res.render('intro', {title: 'Maison Interior'});
 });
+//서브용 인덱스
+router.get('/sample', function (req, res) {
+    res.render('indexsub', {title: 'Maison Interior'});
+});
 
 router.get('/index', function (req, res) {
     res.render('index', {title: 'Maison Interior'});

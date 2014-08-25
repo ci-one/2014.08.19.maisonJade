@@ -51,7 +51,8 @@
     var chkout = function () {
         sessionStorage.setItem('name', '');
         sessionStorage.setItem('role', '');
-        history.back();
+        alert('로그아웃합니다.');
+        location.href('http://www.naver.com');
     };
     $(document).ready(function () {
         if (sessionStorage.getItem('role') == null || sessionStorage.getItem('role') == '') {

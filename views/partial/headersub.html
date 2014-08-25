@@ -15,9 +15,6 @@
                         <a href="/introduce" >회사소개</a>
 
                     </li>
-                    <!--<li>-->
-                    <!--<a href="#organization">조직도</a>-->
-                    <!--</li>-->
                     <li>
                         <a href="/portfolio" >포트폴리오</a>
                     </li>
@@ -44,7 +41,6 @@
     var chkout = function () {
         sessionStorage.setItem('name', '');
         sessionStorage.setItem('role', '');
-        history.back();
     };
     $(document).ready(function () {
         if (sessionStorage.getItem('role') == null || sessionStorage.getItem('role') == '') {
